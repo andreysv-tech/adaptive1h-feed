@@ -1,6 +1,6 @@
 # Adaptive 1H public market-data status
 
-Collected: **2026-09-20T18:48:34+03:00** Israel / 2026-09-20T15:48:34.945Z UTC
+Collected: **2026-09-20T18:58:35+03:00** Israel / 2026-09-20T15:58:35.787Z UTC
 Available fresh frames: **36/36**.
 No API key is used. Only actual responses are shown; no synthetic candles.
 

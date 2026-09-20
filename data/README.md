@@ -1,7 +1,7 @@
 # Adaptive 1H public market-data status
 
-Collected: **2026-09-20T17:48:40+03:00** Israel / 2026-09-20T14:48:40.316Z UTC
-Available fresh frames: **35/36**.
+Collected: **2026-09-20T17:58:19+03:00** Israel / 2026-09-20T14:58:19.674Z UTC
+Available fresh frames: **36/36**.
 No API key is used. Only actual responses are shown; no synthetic candles.
 
 | Asset | Market | 1m | 5m | 15m | 1h | 4h | 1d |
@@ -11,7 +11,7 @@ No API key is used. Only actual responses are shown; no synthetic candles.
 | SOL | Binance Spot | [OK](SOL.md) | [OK](SOL.md) | [OK](SOL.md) | [OK](SOL.md) | [OK](SOL.md) | [OK](SOL.md) |
 | XRP | Binance Spot | [OK](XRP.md) | [OK](XRP.md) | [OK](XRP.md) | [OK](XRP.md) | [OK](XRP.md) | [OK](XRP.md) |
 | DOGE | Binance Spot | [OK](DOGE.md) | [OK](DOGE.md) | [OK](DOGE.md) | [OK](DOGE.md) | [OK](DOGE.md) | [OK](DOGE.md) |
-| BNB | Binance Spot | [ERROR](BNB.md) | [OK](BNB.md) | [OK](BNB.md) | [OK](BNB.md) | [OK](BNB.md) | [OK](BNB.md) |
+| BNB | Binance Spot | [OK](BNB.md) | [OK](BNB.md) | [OK](BNB.md) | [OK](BNB.md) | [OK](BNB.md) | [OK](BNB.md) |
 
 Click any asset to view actual OHLCV rows and source timestamps.
 Machine-readable complete snapshots are in `<ASSET>.json`.

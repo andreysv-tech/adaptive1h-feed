@@ -1,6 +1,6 @@
 {
-  "captured_at_utc": "2026-09-20T13:49:08.853Z",
-  "captured_at_israel": "2026-09-20T16:49:08+03:00",
+  "captured_at_utc": "2026-09-20T13:52:26.785Z",
+  "captured_at_israel": "2026-09-20T16:52:26+03:00",
   "purpose": "public candle data, not trading signals",
   "assets": {
     "BTC": {
@@ -8,14 +8,14 @@
       "frames": {
         "1m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T13:49:00.000Z",
+          "last_completed_close_utc": "2026-09-20T13:52:00.000Z",
           "closed_candles": 119,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "5m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T13:45:00.000Z",
+          "last_completed_close_utc": "2026-09-20T13:50:00.000Z",
           "closed_candles": 159,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
@@ -55,14 +55,14 @@
       "frames": {
         "1m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T13:49:00.000Z",
+          "last_completed_close_utc": "2026-09-20T13:52:00.000Z",
           "closed_candles": 119,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "5m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T13:45:00.000Z",
+          "last_completed_close_utc": "2026-09-20T13:50:00.000Z",
           "closed_candles": 159,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
@@ -102,14 +102,14 @@
       "frames": {
         "1m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T13:49:00.000Z",
+          "last_completed_close_utc": "2026-09-20T13:52:00.000Z",
           "closed_candles": 119,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "5m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T13:45:00.000Z",
+          "last_completed_close_utc": "2026-09-20T13:50:00.000Z",
           "closed_candles": 159,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
@@ -149,14 +149,14 @@
       "frames": {
         "1m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T13:49:00.000Z",
+          "last_completed_close_utc": "2026-09-20T13:52:00.000Z",
           "closed_candles": 119,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "5m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T13:45:00.000Z",
+          "last_completed_close_utc": "2026-09-20T13:50:00.000Z",
           "closed_candles": 159,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
@@ -196,14 +196,14 @@
       "frames": {
         "1m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T13:49:00.000Z",
+          "last_completed_close_utc": "2026-09-20T13:52:00.000Z",
           "closed_candles": 119,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "5m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T13:45:00.000Z",
+          "last_completed_close_utc": "2026-09-20T13:50:00.000Z",
           "closed_candles": 159,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
@@ -238,96 +238,19 @@
         }
       }
     },
-    "HYPE": {
-      "market": "Binance USD-M Futures",
-      "frames": {
-        "1m": {
-          "status": "ERROR",
-          "last_completed_close_utc": null,
-          "closed_candles": 0,
-          "source": null,
-          "errors": [
-            {
-              "host": "https://fapi.binance.com",
-              "error": "HTTPError: HTTP Error 451: "
-            }
-          ]
-        },
-        "5m": {
-          "status": "ERROR",
-          "last_completed_close_utc": null,
-          "closed_candles": 0,
-          "source": null,
-          "errors": [
-            {
-              "host": "https://fapi.binance.com",
-              "error": "HTTPError: HTTP Error 451: "
-            }
-          ]
-        },
-        "15m": {
-          "status": "ERROR",
-          "last_completed_close_utc": null,
-          "closed_candles": 0,
-          "source": null,
-          "errors": [
-            {
-              "host": "https://fapi.binance.com",
-              "error": "HTTPError: HTTP Error 451: "
-            }
-          ]
-        },
-        "1h": {
-          "status": "ERROR",
-          "last_completed_close_utc": null,
-          "closed_candles": 0,
-          "source": null,
-          "errors": [
-            {
-              "host": "https://fapi.binance.com",
-              "error": "HTTPError: HTTP Error 451: "
-            }
-          ]
-        },
-        "4h": {
-          "status": "ERROR",
-          "last_completed_close_utc": null,
-          "closed_candles": 0,
-          "source": null,
-          "errors": [
-            {
-              "host": "https://fapi.binance.com",
-              "error": "HTTPError: HTTP Error 451: "
-            }
-          ]
-        },
-        "1d": {
-          "status": "ERROR",
-          "last_completed_close_utc": null,
-          "closed_candles": 0,
-          "source": null,
-          "errors": [
-            {
-              "host": "https://fapi.binance.com",
-              "error": "HTTPError: HTTP Error 451: "
-            }
-          ]
-        }
-      }
-    },
     "BNB": {
       "market": "Binance Spot",
       "frames": {
         "1m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T13:49:00.000Z",
+          "last_completed_close_utc": "2026-09-20T13:52:00.000Z",
           "closed_candles": 119,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "5m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T13:45:00.000Z",
+          "last_completed_close_utc": "2026-09-20T13:50:00.000Z",
           "closed_candles": 159,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
@@ -364,5 +287,5 @@
     }
   },
   "successful_frames": 36,
-  "total_frames": 42
+  "total_frames": 36
 }

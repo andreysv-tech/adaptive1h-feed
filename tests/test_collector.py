@@ -26,23 +26,23 @@ def fake_klines(url):
 
 
 class CollectorTests(unittest.TestCase):
-    def test_all_42_frames_and_futures_route(self):
+    def test_all_36_frames_use_spot(self):
         calls = []
         def service(url):
             calls.append(url)
             return fake_klines(url)
         with tempfile.TemporaryDirectory() as temp, patch.object(collector, 'request_json', side_effect=service):
             result = collector.collect(CAPTURE, temp)
-            self.assertEqual(result, 42)
+            self.assertEqual(result, 36)
             status = json.loads((Path(temp) / 'status.json').read_text())
-            self.assertEqual(status['successful_frames'], 42)
-            self.assertEqual(len(status['assets']), 7)
-            h = json.loads((Path(temp) / 'HYPE.json').read_text())
+            self.assertEqual(status['successful_frames'], 36)
+            self.assertEqual(len(status['assets']), 6)
             b = json.loads((Path(temp) / 'BTC.json').read_text())
-            self.assertIn('/fapi/v1/klines', h['frames']['1h']['source'])
             self.assertIn('/api/v3/klines', b['frames']['1h']['source'])
-            self.assertTrue(all('HYPEUSDT' in url for url in calls if '/fapi/' in url))
-            self.assertEqual(len(calls), 42)
+            self.assertTrue(all('/api/v3/klines?' in url for url in calls))
+            self.assertEqual(set(status['assets']), {'BTC', 'ETH', 'SOL', 'XRP', 'DOGE', 'BNB'})
+            self.assertEqual(status['total_frames'], 36)
+            self.assertEqual(len(calls), 36)
             self.assertIn('Closed?', (Path(temp) / 'BTC.md').read_text())
 
     def test_failure_is_error_not_no_trade(self):
@@ -52,7 +52,7 @@ class CollectorTests(unittest.TestCase):
             self.assertEqual(collector.collect(CAPTURE, temp), 0)
             report = (Path(temp) / 'README.md').read_text()
             self.assertIn('ERROR', report)
-            self.assertIn('0/42', report)
+            self.assertIn('0/36', report)
             status = json.loads((Path(temp) / 'status.json').read_text())
             self.assertEqual(status['assets']['BTC']['frames']['1h']['status'], 'ERROR')
 

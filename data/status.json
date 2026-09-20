@@ -1,6 +1,6 @@
 {
-  "captured_at_utc": "2026-09-20T18:59:16.491Z",
-  "captured_at_israel": "2026-09-20T21:59:16+03:00",
+  "captured_at_utc": "2026-09-20T19:47:59.474Z",
+  "captured_at_israel": "2026-09-20T22:47:59+03:00",
   "purpose": "public candle data, not trading signals",
   "assets": {
     "BTC": {
@@ -8,28 +8,28 @@
       "frames": {
         "1m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:59:00.000Z",
+          "last_completed_close_utc": "2026-09-20T19:47:00.000Z",
           "closed_candles": 119,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "5m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:55:00.000Z",
+          "last_completed_close_utc": "2026-09-20T19:45:00.000Z",
           "closed_candles": 159,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "15m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:45:00.000Z",
+          "last_completed_close_utc": "2026-09-20T19:45:00.000Z",
           "closed_candles": 159,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "1h": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:00:00.000Z",
+          "last_completed_close_utc": "2026-09-20T19:00:00.000Z",
           "closed_candles": 239,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
@@ -55,28 +55,28 @@
       "frames": {
         "1m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:59:00.000Z",
-          "closed_candles": 119,
+          "last_completed_close_utc": "2026-09-20T19:47:00.000Z",
+          "closed_candles": 118,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "5m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:55:00.000Z",
+          "last_completed_close_utc": "2026-09-20T19:45:00.000Z",
           "closed_candles": 159,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "15m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:45:00.000Z",
+          "last_completed_close_utc": "2026-09-20T19:45:00.000Z",
           "closed_candles": 159,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "1h": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:00:00.000Z",
+          "last_completed_close_utc": "2026-09-20T19:00:00.000Z",
           "closed_candles": 239,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
@@ -102,28 +102,28 @@
       "frames": {
         "1m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:59:00.000Z",
-          "closed_candles": 119,
+          "last_completed_close_utc": "2026-09-20T19:47:00.000Z",
+          "closed_candles": 118,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "5m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:55:00.000Z",
+          "last_completed_close_utc": "2026-09-20T19:45:00.000Z",
           "closed_candles": 159,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "15m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:45:00.000Z",
+          "last_completed_close_utc": "2026-09-20T19:45:00.000Z",
           "closed_candles": 159,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "1h": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:00:00.000Z",
+          "last_completed_close_utc": "2026-09-20T19:00:00.000Z",
           "closed_candles": 239,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
@@ -149,28 +149,28 @@
       "frames": {
         "1m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:59:00.000Z",
-          "closed_candles": 119,
+          "last_completed_close_utc": "2026-09-20T19:47:00.000Z",
+          "closed_candles": 118,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "5m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:55:00.000Z",
+          "last_completed_close_utc": "2026-09-20T19:45:00.000Z",
           "closed_candles": 159,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "15m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:45:00.000Z",
+          "last_completed_close_utc": "2026-09-20T19:45:00.000Z",
           "closed_candles": 159,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "1h": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:00:00.000Z",
+          "last_completed_close_utc": "2026-09-20T19:00:00.000Z",
           "closed_candles": 239,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
@@ -196,28 +196,28 @@
       "frames": {
         "1m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:59:00.000Z",
-          "closed_candles": 119,
+          "last_completed_close_utc": "2026-09-20T19:47:00.000Z",
+          "closed_candles": 118,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "5m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:55:00.000Z",
+          "last_completed_close_utc": "2026-09-20T19:45:00.000Z",
           "closed_candles": 159,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "15m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:45:00.000Z",
+          "last_completed_close_utc": "2026-09-20T19:45:00.000Z",
           "closed_candles": 159,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "1h": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:00:00.000Z",
+          "last_completed_close_utc": "2026-09-20T19:00:00.000Z",
           "closed_candles": 239,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
@@ -243,28 +243,28 @@
       "frames": {
         "1m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:59:00.000Z",
-          "closed_candles": 119,
+          "last_completed_close_utc": "2026-09-20T19:47:00.000Z",
+          "closed_candles": 118,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "5m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:55:00.000Z",
+          "last_completed_close_utc": "2026-09-20T19:45:00.000Z",
           "closed_candles": 159,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "15m": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:45:00.000Z",
+          "last_completed_close_utc": "2026-09-20T19:45:00.000Z",
           "closed_candles": 159,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []
         },
         "1h": {
           "status": "OK",
-          "last_completed_close_utc": "2026-09-20T18:00:00.000Z",
+          "last_completed_close_utc": "2026-09-20T19:00:00.000Z",
           "closed_candles": 239,
           "source": "https://data-api.binance.vision/api/v3/klines",
           "errors": []

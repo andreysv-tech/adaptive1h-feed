@@ -1,0 +1,43 @@
+name: Collect public market candles
+on:
+  schedule:
+    - cron: '43,48,53 7-22 * * *'
+      timezone: 'Asia/Jerusalem'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: adaptive1h-candle-collector
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test collector
+        run: python -m unittest discover -s tests -v
+      - name: Download six spot feeds plus HYPE futures
+        run: python collector.py
+      - name: Commit all snapshots, including failures
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh public OHLCV snapshots"
+            git push
+          fi
+      - name: Require fresh data for all 42 frames
+        run: |
+          python - <<'PYTHON'
+          import json
+          from pathlib import Path
+          status = json.loads(Path('data/status.json').read_text())
+          assert status['successful_frames'] == status['total_frames'] == 42, status
+          PYTHON

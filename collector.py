@@ -14,13 +14,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-ASSETS = ('BTC', 'ETH', 'SOL', 'XRP', 'DOGE', 'HYPE', 'BNB')
+ASSETS = ('BTC', 'ETH', 'SOL', 'XRP', 'DOGE', 'BNB')
 INTERVAL_LIMITS = {'1m': 120, '5m': 160, '15m': 160, '1h': 240, '4h': 120, '1d': 80}
 INTERVAL_MS = {'1m': 60_000, '5m': 300_000, '15m': 900_000,
                '1h': 3_600_000, '4h': 14_400_000, '1d': 86_400_000}
 SPOT_HOSTS = ('https://data-api.binance.vision', 'https://api.binance.com',
               'https://api1.binance.com')
-FUTURES_HOSTS = ('https://fapi.binance.com',)
 USER_AGENT = 'Adaptive1H-Public-Candle-Collector/1.0'
 OUTPUT_DIR = Path(os.environ.get('OHLCV_OUTPUT_DIR', 'data'))
 
@@ -41,12 +40,11 @@ def request_json(url):
 
 def get_klines(asset, interval, capture_ms):
     symbol = asset + 'USDT'
-    future = asset == 'HYPE'
-    path = '/fapi/v1/klines' if future else '/api/v3/klines'
+    path = '/api/v3/klines'
     query = urllib.parse.urlencode({'symbol': symbol, 'interval': interval,
                                    'limit': INTERVAL_LIMITS[interval]})
     failures = []
-    for host in FUTURES_HOSTS if future else SPOT_HOSTS:
+    for host in SPOT_HOSTS:
         url = host + path + '?' + query
         try:
             rows = request_json(url)
@@ -84,13 +82,13 @@ def get_klines(asset, interval, capture_ms):
             # A freshly opened period naturally has just one completed previous candle.
             stale = capture_ms - last_end >= INTERVAL_MS[interval] + 120_000
             return {'status': 'STALE' if stale else 'OK', 'source': host + path,
-                    'market': 'Binance USD-M Futures' if future else 'Binance Spot',
+                    'market': 'Binance Spot',
                     'symbol': symbol, 'interval': interval, 'captured_at_utc': utc(capture_ms),
                     'last_completed_close_utc': utc(last_end), 'closed_candles': len(complete),
                     'candles': candles, 'errors_before_success': failures}
         except (OSError, TimeoutError, ValueError, TypeError, json.JSONDecodeError) as exc:
             failures.append({'host': host, 'error': f'{type(exc).__name__}: {str(exc)[:160]}'})
-    return {'status': 'ERROR', 'market': 'Binance USD-M Futures' if future else 'Binance Spot',
+    return {'status': 'ERROR', 'market': 'Binance Spot',
             'symbol': symbol, 'interval': interval, 'captured_at_utc': utc(capture_ms),
             'errors': failures, 'candles': []}
 
@@ -102,7 +100,7 @@ def fmt(x):
 def make_asset_markdown(asset, intervals, capture_ms):
     lines = [f'# {asset}USDT — Adaptive 1H candles', '',
              f'Collection: {utc(capture_ms)} UTC / {local(capture_ms)} Israel',
-             f'Market: {"Binance USD-M Futures" if asset == "HYPE" else "Binance Spot"}',
+             'Market: Binance Spot',
              'These are market data, NOT a forecast or Polymarket execution quote.', '']
     for interval, item in intervals.items():
         lines.extend([f'## {interval} — {item["status"]}', '',

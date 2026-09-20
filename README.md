@@ -1,13 +1,13 @@
-# Adaptive 1H: ready-to-upload candle collector
+# Adaptive 1H: six-asset Binance Spot candle feed
 
 This collects **public market candles only**, no account access and no trading API key.
-It fetches BTC, ETH, SOL, XRP, DOGE and BNB from **Binance Spot**, and HYPE from **Binance USD-M Futures**. Verify each corresponding Polymarket contract's official resolution source before matching its outcome. Collection intervals: 1m, 5m, 15m, 1h, 4h and 1d.
+It fetches BTC, ETH, SOL, XRP, DOGE and BNB from **Binance Spot**. Verify each corresponding Polymarket contract's official resolution source before matching its outcome. Collection intervals: 1m, 5m, 15m, 1h, 4h and 1d.
 
 ## Setup (requires a GitHub account, computer is easiest)
 
 1. Unzip this archive. Create a **new GitHub repository** (public is simplest, because candles are public data and the assistant can inspect public repo pages). Never upload personal data, keys or Binance credentials. Add the unzipped contents, preserving the `.github/workflows/collect.yml` directory. Commit the files to the repository's **default branch**.
-2. Open the repository's **Actions** tab, select `Collect public market candles` and select `Run workflow`. If prompted, enable workflows. This manual test is essential: we have **not** verified Binance access from GitHub runners.
-3. Inspect the workflow result, then open `data/README.md` in the repository. Success means the table lists OK for recent 5m/15m/1h for **all seven**. A red run, ERROR or STALE requires diagnosis; do not infer candles exist merely because a scheduled action is enabled.
+2. Open the repository's **Actions** tab, select `Collect public market candles` and select `Run workflow`. If prompted, enable workflows. The workflow checks all 36 asset/interval combinations and publishes diagnostics before reporting any failure.
+3. Inspect the workflow result, then open `data/README.md` in the repository. Success means the table lists OK for recent 5m/15m/1h for **all six**. A red run, ERROR or STALE requires diagnosis; do not infer candles exist merely because a scheduled action is enabled.
 4. Send ChatGPT your repository URL plus the URL of `data/README.md`. Confirm the assistant can actually read the file and its timestamps through its current tools. The automation must be updated with that exact verified URL or compatible connected source. If a public page is stale or inaccessible to tools, a compatible GitHub connector may be needed; do not assume it works without a test.
 5. Once this end-to-end check passes, review 3-5 successive cycles for reliable freshness. Only then should you rely on a pre-hour forecast. This is a research feed, not an order-execution system.
 
@@ -27,7 +27,13 @@ python collector.py
 python -m unittest discover -s tests -v
 ```
 
-The program uses only Python's standard library. Public Binance Spot endpoint: `https://data-api.binance.vision/api/v3/klines`; Futures HYPE endpoint: `https://fapi.binance.com/fapi/v1/klines`.
+The program uses only Python's standard library. Public Binance Spot endpoint: `https://data-api.binance.vision/api/v3/klines`.
+
+## Schedule and active data
+
+The enabled schedule runs at :43, :48 and :53 during hours 07–22 in `Asia/Jerusalem`, including daylight-saving changes. The :43 and :48 runs prepare snapshots for forecasts at 07:50–22:50; :53 is a later refresh and cannot be used retroactively for a :50 forecast. GitHub may delay scheduled jobs, so always check snapshot age.
+
+Only BTC, ETH, SOL, XRP, DOGE and BNB belong to the active feed (36/36 frames). Use `data/status.json` and `data/README.md` as the current asset manifest, not a directory listing. Historical `data/HYPE.*` files are retained unchanged for reference and are no longer refreshed or part of health checks. No Binance Futures requests are made.
 
 ## Time alignment
 

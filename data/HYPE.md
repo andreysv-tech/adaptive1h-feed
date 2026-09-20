@@ -1,6 +1,6 @@
 # HYPEUSDT — Adaptive 1H candles
 
-Collection: 2026-09-20T13:32:59.410Z UTC / 2026-09-20T16:32:59+03:00 Israel
+Collection: 2026-09-20T13:49:08.853Z UTC / 2026-09-20T16:49:08+03:00 Israel
 Market: Binance USD-M Futures
 These are market data, NOT a forecast or Polymarket execution quote.
 

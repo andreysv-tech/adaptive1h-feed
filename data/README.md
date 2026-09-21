@@ -1,18 +1,16 @@
-# Adaptive 1H public market-data status
+# Adaptive 1H data status
 
-Collected: **2026-09-21T14:00:03+03:00** Israel / 2026-09-21T11:00:03.589Z UTC
-Available fresh frames: **36/36**.
-No API key is used. Only actual responses are shown; no synthetic candles.
+Collection started: 2026-09-21T11:41:24.727Z / 2026-09-21T14:41:24+03:00
+Freshness must be checked at read time; OK is a collection-time result.
 
-| Asset | Market | 1m | 5m | 15m | 1h | 4h | 1d |
+| Asset | Exchange | 1m | 5m | 15m | 1h | 4h | 1d |
 |---|---|---|---|---|---|---|---|
-| BTC | Binance Spot | [OK](BTC.md) | [OK](BTC.md) | [OK](BTC.md) | [OK](BTC.md) | [OK](BTC.md) | [OK](BTC.md) |
-| ETH | Binance Spot | [OK](ETH.md) | [OK](ETH.md) | [OK](ETH.md) | [OK](ETH.md) | [OK](ETH.md) | [OK](ETH.md) |
-| SOL | Binance Spot | [OK](SOL.md) | [OK](SOL.md) | [OK](SOL.md) | [OK](SOL.md) | [OK](SOL.md) | [OK](SOL.md) |
-| XRP | Binance Spot | [OK](XRP.md) | [OK](XRP.md) | [OK](XRP.md) | [OK](XRP.md) | [OK](XRP.md) | [OK](XRP.md) |
-| DOGE | Binance Spot | [OK](DOGE.md) | [OK](DOGE.md) | [OK](DOGE.md) | [OK](DOGE.md) | [OK](DOGE.md) | [OK](DOGE.md) |
-| BNB | Binance Spot | [OK](BNB.md) | [OK](BNB.md) | [OK](BNB.md) | [OK](BNB.md) | [OK](BNB.md) | [OK](BNB.md) |
+| BTC | Binance | [OK](BTC.md) | [OK](BTC.md) | [OK](BTC.md) | [OK](BTC.md) | [OK](BTC.md) | [OK](BTC.md) |
+| ETH | Binance | [OK](ETH.md) | [OK](ETH.md) | [OK](ETH.md) | [OK](ETH.md) | [OK](ETH.md) | [OK](ETH.md) |
+| SOL | Binance | [OK](SOL.md) | [OK](SOL.md) | [OK](SOL.md) | [OK](SOL.md) | [OK](SOL.md) | [OK](SOL.md) |
+| XRP | Binance | [OK](XRP.md) | [OK](XRP.md) | [OK](XRP.md) | [OK](XRP.md) | [OK](XRP.md) | [OK](XRP.md) |
+| DOGE | Binance | [OK](DOGE.md) | [OK](DOGE.md) | [OK](DOGE.md) | [OK](DOGE.md) | [OK](DOGE.md) | [OK](DOGE.md) |
+| BNB | Binance | [OK](BNB.md) | [OK](BNB.md) | [OK](BNB.md) | [OK](BNB.md) | [OK](BNB.md) | [OK](BNB.md) |
 
-Click any asset to view actual OHLCV rows and source timestamps.
-Machine-readable complete snapshots are in `<ASSET>.json`.
-An ERROR is a data-access problem, not a No Trade signal.
+Available fresh frames: **36/36**.
+ERROR/STALE is a data-access problem, not a No Trade signal.

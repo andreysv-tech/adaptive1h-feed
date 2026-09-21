@@ -1,0 +1,828 @@
+{
+  "schema_version": 2,
+  "captured_at_utc": "2026-09-21T11:41:24.414Z",
+  "captured_at_israel": "2026-09-21T14:41:24+03:00",
+  "generated_at_utc": "2026-09-21T11:41:24.616Z",
+  "snapshot_max_age_seconds": 120,
+  "purpose": "public candle data, not trading signals",
+  "assets": {
+    "BTC": {
+      "asset": "BTC",
+      "status": "ERROR",
+      "exchange": null,
+      "market": "Spot",
+      "source_url": null,
+      "capture_time_utc": "2026-09-21T11:41:24.614Z",
+      "expires_at_utc": "2026-09-21T11:41:24.614Z",
+      "available_fields": [],
+      "unavailable_fields": [
+        "open_ms",
+        "open_utc",
+        "close_ms",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "quote_volume",
+        "complete",
+        "taker_buy_base",
+        "trades"
+      ],
+      "attempts": [
+        {
+          "exchange": "Bybit",
+          "source_url": "https://api.bybit.com",
+          "status": 403,
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      ],
+      "frames": {
+        "1m": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.614Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "5m": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.614Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "15m": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.614Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "1h": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.614Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "4h": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.614Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "1d": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.614Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        }
+      }
+    },
+    "ETH": {
+      "asset": "ETH",
+      "status": "ERROR",
+      "exchange": null,
+      "market": "Spot",
+      "source_url": null,
+      "capture_time_utc": "2026-09-21T11:41:24.615Z",
+      "expires_at_utc": "2026-09-21T11:41:24.615Z",
+      "available_fields": [],
+      "unavailable_fields": [
+        "open_ms",
+        "open_utc",
+        "close_ms",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "quote_volume",
+        "complete",
+        "taker_buy_base",
+        "trades"
+      ],
+      "attempts": [
+        {
+          "exchange": "Bybit",
+          "source_url": "https://api.bybit.com",
+          "status": 403,
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      ],
+      "frames": {
+        "1m": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "5m": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "15m": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "1h": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "4h": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "1d": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        }
+      }
+    },
+    "SOL": {
+      "asset": "SOL",
+      "status": "ERROR",
+      "exchange": null,
+      "market": "Spot",
+      "source_url": null,
+      "capture_time_utc": "2026-09-21T11:41:24.615Z",
+      "expires_at_utc": "2026-09-21T11:41:24.615Z",
+      "available_fields": [],
+      "unavailable_fields": [
+        "open_ms",
+        "open_utc",
+        "close_ms",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "quote_volume",
+        "complete",
+        "taker_buy_base",
+        "trades"
+      ],
+      "attempts": [
+        {
+          "exchange": "Bybit",
+          "source_url": "https://api.bybit.com",
+          "status": 403,
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      ],
+      "frames": {
+        "1m": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "5m": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "15m": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "1h": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "4h": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "1d": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        }
+      }
+    },
+    "XRP": {
+      "asset": "XRP",
+      "status": "ERROR",
+      "exchange": null,
+      "market": "Spot",
+      "source_url": null,
+      "capture_time_utc": "2026-09-21T11:41:24.615Z",
+      "expires_at_utc": "2026-09-21T11:41:24.615Z",
+      "available_fields": [],
+      "unavailable_fields": [
+        "open_ms",
+        "open_utc",
+        "close_ms",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "quote_volume",
+        "complete",
+        "taker_buy_base",
+        "trades"
+      ],
+      "attempts": [
+        {
+          "exchange": "Bybit",
+          "source_url": "https://api.bybit.com",
+          "status": 403,
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      ],
+      "frames": {
+        "1m": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "5m": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "15m": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "1h": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "4h": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "1d": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        }
+      }
+    },
+    "DOGE": {
+      "asset": "DOGE",
+      "status": "ERROR",
+      "exchange": null,
+      "market": "Spot",
+      "source_url": null,
+      "capture_time_utc": "2026-09-21T11:41:24.615Z",
+      "expires_at_utc": "2026-09-21T11:41:24.615Z",
+      "available_fields": [],
+      "unavailable_fields": [
+        "open_ms",
+        "open_utc",
+        "close_ms",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "quote_volume",
+        "complete",
+        "taker_buy_base",
+        "trades"
+      ],
+      "attempts": [
+        {
+          "exchange": "Bybit",
+          "source_url": "https://api.bybit.com",
+          "status": 403,
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      ],
+      "frames": {
+        "1m": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "5m": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "15m": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "1h": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "4h": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "1d": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        }
+      }
+    },
+    "BNB": {
+      "asset": "BNB",
+      "status": "ERROR",
+      "exchange": null,
+      "market": "Spot",
+      "source_url": null,
+      "capture_time_utc": "2026-09-21T11:41:24.615Z",
+      "expires_at_utc": "2026-09-21T11:41:24.615Z",
+      "available_fields": [],
+      "unavailable_fields": [
+        "open_ms",
+        "open_utc",
+        "close_ms",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "quote_volume",
+        "complete",
+        "taker_buy_base",
+        "trades"
+      ],
+      "attempts": [
+        {
+          "exchange": "Bybit",
+          "source_url": "https://api.bybit.com",
+          "status": 403,
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      ],
+      "frames": {
+        "1m": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "5m": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "15m": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "1h": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "4h": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        },
+        "1d": {
+          "status": "ERROR",
+          "exchange": null,
+          "market": "Spot",
+          "source_url": null,
+          "source": null,
+          "captured_at_utc": "2026-09-21T11:41:24.615Z",
+          "available_fields": [],
+          "errors": [
+            {
+              "exchange": "Bybit",
+              "source_url": "https://api.bybit.com",
+              "status": 403,
+              "error": "HTTPError: HTTP Error 403: Forbidden"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "total_frames": 36,
+  "successful_frames": 0
+}

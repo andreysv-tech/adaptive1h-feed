@@ -1,9 +1,18 @@
 name: Collect public market candles
 on:
   schedule:
-    - cron: '43,48,53 7-22 * * *'
+    # Best effort: :44 and :49 prepare :50 forecasts; live JSON is the independent fallback.
+    - cron: '4-59/5 7-22 * * *'
+      timezone: 'Asia/Jerusalem'
+    # Includes the closed 23:00 hour and fresh snapshots before the 23:30 review.
+    - cron: '4,9,14,19,24,29,34 23 * * *'
       timezone: 'Asia/Jerusalem'
   workflow_dispatch:
+    inputs:
+      verify_bybit:
+        description: 'Also probe all 36 Bybit Spot frames (diagnostic only)'
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency:
@@ -15,29 +24,47 @@ jobs:
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
-        with:
-          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Test collector
-        run: python -m unittest discover -s tests -v
-      - name: Download six Binance Spot feeds
+      - name: Test collector and independent feed
+        run: |
+          python -m unittest discover -s tests -v
+          node --test live_worker.test.mjs
+      - name: Optional direct Bybit verification
+        if: inputs.verify_bybit == true
+        continue-on-error: true
+        run: python collector.py --exchange Bybit --output data/bybit-probe
+      - name: Collect six Spot assets with whole-asset failover
+        id: collect
+        continue-on-error: true
         run: python collector.py
-      - name: Commit all snapshots, including failures
+      - name: Commit snapshots and diagnostics without erasing history
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh public OHLCV snapshots"
+            git pull --rebase origin main
             git push
           fi
-      - name: Require fresh data for all 36 frames
+      - name: Require 36 fresh frames and six active assets
+        if: always()
+        env:
+          COLLECTION_OUTCOME: ${{ steps.collect.outcome }}
         run: |
           python - <<'PYTHON'
-          import json
+          import json, os
+          from datetime import datetime, timezone
           from pathlib import Path
+          assert os.environ['COLLECTION_OUTCOME'] == 'success', 'Current collection failed'
           status = json.loads(Path('data/status.json').read_text())
           assert status['successful_frames'] == status['total_frames'] == 36, status
+          assert set(status['assets']) == {'BTC','ETH','SOL','XRP','DOGE','BNB'}
+          now = datetime.now(timezone.utc)
+          for asset in status['assets'].values():
+              assert now < datetime.fromisoformat(asset['expires_at_utc'].replace('Z','+00:00')), 'Snapshot expired'
+              assert {f['exchange'] for f in asset['frames'].values()} == {asset['exchange']}, 'Mixed exchanges'
           PYTHON

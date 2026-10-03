@@ -48,7 +48,7 @@ Historical `data/HYPE.*` files remain unchanged and are not active inputs. Git h
 
 Both workflows use standard **UTC cron, 24/7**, without `timezone` or a local-hour cutoff:
 
-- `Collect public market candles`: `2-57/5 * * * *` (every five minutes).
+- `Collect public market candles`: `4-59/5 * * * *` (every five minutes, including :44/:49 before the :50 forecast).
 - `Watchdog rescue public market candles`: `4,39 * * * *` (hourly outcome/forecast rescue checks).
 - Both support manual `workflow_dispatch` on `main`; collector also supports the isolated Bybit probe.
 

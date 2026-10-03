@@ -1,12 +1,8 @@
 name: Collect public market candles
 on:
   schedule:
-    # Best effort: :44 and :49 prepare :50 forecasts; live JSON is the independent fallback.
-    - cron: '4-59/5 7-22 * * *'
-      timezone: 'Asia/Jerusalem'
-    # Includes the closed 23:00 hour and fresh snapshots before the 23:30 review.
-    - cron: '4,9,14,19,24,29,34 23 * * *'
-      timezone: 'Asia/Jerusalem'
+    # UTC, 24/7: no timezone parser or DST-dependent hour window.
+    - cron: '2-57/5 * * * *'
   workflow_dispatch:
     inputs:
       verify_bybit:
@@ -20,51 +16,27 @@ concurrency:
   cancel-in-progress: false
 jobs:
   collect:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Test collector and independent feed
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Test collector, validation and independent feed
         run: |
           python -m unittest discover -s tests -v
           node --test live_worker.test.mjs
       - name: Optional direct Bybit verification
         if: inputs.verify_bybit == true
         continue-on-error: true
-        run: python collector.py --exchange Bybit --output data/bybit-probe
-      - name: Collect six Spot assets with whole-asset failover
-        id: collect
-        continue-on-error: true
-        run: python collector.py
-      - name: Commit snapshots and diagnostics without erasing history
-        if: always()
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: refresh public OHLCV snapshots"
-            git pull --rebase origin main
-            git push
-          fi
-      - name: Require 36 fresh frames and six active assets
-        if: always()
-        env:
-          COLLECTION_OUTCOME: ${{ steps.collect.outcome }}
-        run: |
-          python - <<'PYTHON'
-          import json, os
-          from datetime import datetime, timezone
-          from pathlib import Path
-          assert os.environ['COLLECTION_OUTCOME'] == 'success', 'Current collection failed'
-          status = json.loads(Path('data/status.json').read_text())
-          assert status['successful_frames'] == status['total_frames'] == 36, status
-          assert set(status['assets']) == {'BTC','ETH','SOL','XRP','DOGE','BNB'}
-          now = datetime.now(timezone.utc)
-          for asset in status['assets'].values():
-              assert now < datetime.fromisoformat(asset['expires_at_utc'].replace('Z','+00:00')), 'Snapshot expired'
-              assert {f['exchange'] for f in asset['frames'].values()} == {asset['exchange']}, 'Mixed exchanges'
-          PYTHON
+        run: python collector.py --exchange Bybit --output "$RUNNER_TEMP/bybit-probe"
+      - name: Collect, validate, publish and verify six assets
+        run: bash refresh-feed.sh collect

@@ -1,0 +1,27 @@
+name: Watchdog rescue public market candles
+on:
+  schedule:
+    # Israel is UTC+02/+03: minute :04/:39 stays identical across DST.
+    # Independent schedule; directly invokes the collector, never dispatches workflows.
+    - cron: '4,39 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: adaptive1h-candle-collector
+  cancel-in-progress: false
+jobs:
+  rescue:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rescue stale, missing or invalid snapshot and verify published data
+        run: bash refresh-feed.sh watchdog

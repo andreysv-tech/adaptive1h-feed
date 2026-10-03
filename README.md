@@ -42,17 +42,25 @@ Rows are checked for finite OHLCV values, order, duplicates, gaps, exact interva
 - `data/<ASSET>.json`: full 880-candle snapshot across six intervals; Markdown has readable excerpts.
 - Optional `data/bybit-probe/`: isolated real Bybit verification output; never merged into the active feed.
 
-Historical `data/HYPE.*` files remain unchanged and are not active inputs. Git history is preserved. Failed collection diagnostics are published before the final Actions health check; a failed probe must not be read as a successful provider verification.
+Historical `data/HYPE.*` files remain unchanged and are not active inputs. Git history is preserved. Failed collections remain in Actions logs and never replace the last published snapshot. Its original expiry remains intact, so it cannot masquerade as fresh. Optional Bybit probes remain in runner temporary storage.
 
 ## Schedule and deadline handling
 
-Timezone: **Asia/Jerusalem**, with DST handled by GitHub.
+Both workflows use standard **UTC cron, 24/7**, without `timezone` or a local-hour cutoff:
 
-- Every five minutes at :04, :09, …, :44, :49, :54, :59 during hours 07–22.
-- Additional 23:04, :09, :14, :19, :24, :29, :34 refreshes for the 23:30 final review, including the hour ending 23:00.
-- Manual `workflow_dispatch` supports an optional direct Bybit probe.
+- `Collect public market candles`: `2-57/5 * * * *` (every five minutes).
+- `Watchdog rescue public market candles`: `4,39 * * * *` (hourly outcome/forecast rescue checks).
+- Both support manual `workflow_dispatch` on `main`; collector also supports the isolated Bybit probe.
 
-The :44 and :49 attempts prepare data before :50. GitHub can delay or skip them, so the independent on-demand endpoint is the deadline fallback. No queued job sleeps to simulate precise timing. Snapshot freshness limit is 120 seconds from each asset's collection start. The :34 run is a later refresh, not evidence that data were available at :30.
+Israel is UTC+02 in winter and UTC+03 in summer, so :04/:39 every UTC hour are also :04/:39 every Israel hour. No duplicated DST schedules or missing operating windows are needed.
+
+The watchdog reads `data/status.json` and all six asset files after acquiring the same concurrency group as the collector and updating its checkout. If missing, expired, inconsistent or missing the current hourly candle, it runs the existing collector directly and commits the validated result. It never dispatches another workflow. There are no push or workflow_run triggers and no trigger loops.
+
+Both paths stage collection outside `data/`, retry up to three times, require 36/36 frames, matching status/file metadata, fresh assets and frames, whole-asset exchange consistency, full candle windows and correct hourly closure flags **before publishing**. Git history and inactive historical files are preserved. A non-forced push follows pull/rebase and another validation; conflicts fail visibly instead of overwriting a concurrent snapshot. The published remote tip is validated again after push.
+
+**Availability limit:** both schedules still depend on the GitHub scheduler. GitHub may delay or drop either schedule; a second workflow mitigates missed runs but cannot guarantee :04/:39 or continuous freshness. The unchanged 120-second TTL is shorter than the five-minute schedule, and :39 alone cannot supply a fresh snapshot at :50. The independent live endpoint remains the existing on-demand fallback. Guaranteed deadlines require a scheduler outside GitHub (with authorized Actions dispatch credentials) or a consumer fetching live data; neither is silently configured by this repository change.
+
+Incident 2026-10-03: run #820 was successful at 14:32 UTC, with 36/36 frames. Earlier run #819 was at 11:06 UTC, already a 3h25 gap. No subsequent run existed when investigated, despite the workflow's operating window; the workflow had not changed since September 21. Evidence locates the interruption before collector execution, in schedule delivery. GitHub does not expose the internal reason for a missing event, so a scheduler outage or timezone-specific defect cannot be proven from repository logs. Timezone syntax is supported, not inherently invalid. See [GitHub schedule limitations](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule).
 
 ## Validation and operation
 
@@ -60,6 +68,7 @@ The :44 and :49 attempts prepare data before :50. GitHub can delay or skip them,
 python -m unittest discover -s tests -v
 node --test live_worker.test.mjs
 python collector.py
+python verify_snapshot.py
 python collector.py --exchange Bybit --output data/bybit-probe
 ```
 

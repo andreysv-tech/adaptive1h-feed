@@ -1,7 +1,7 @@
 # SOLUSDT — public candles
 
 Status: OK; exchange: Binance
-Captured: 2026-10-06T05:20:55.985Z; expires: 2026-10-06T05:22:51.141Z
+Captured: 2026-10-06T05:21:16.682Z; expires: 2026-10-06T05:23:11.789Z
 Source: https://data-api.binance.vision
 Available fields: open_ms, open_utc, close_ms, open, high, low, close, volume, quote_volume, complete, taker_buy_base, trades
 Unavailable fields: 
@@ -9,13 +9,12 @@ Unavailable fields:
 Public data only. No forecasts. Exchange prices may differ.
 
 ## 1m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=120&interval=1m&endTime=1791264051822
-Captured: 2026-10-06T05:20:52.607Z
-Last completed close: 2026-10-06T05:20:00.000Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=120&interval=1m&endTime=1791264072465
+Captured: 2026-10-06T05:21:13.188Z
+Last completed close: 2026-10-06T05:21:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
 |---|---:|---:|---:|---:|---:|---:|---|
-| 2026-10-06T04:26:00.000Z | 120.3 | 120.31 | 120.3 | 120.3 | 61.779 | 19.716 | yes |
 | 2026-10-06T04:27:00.000Z | 120.3 | 120.3 | 120.29 | 120.3 | 215.923 | 10.797 | yes |
 | 2026-10-06T04:28:00.000Z | 120.29 | 120.29 | 120.23 | 120.23 | 423.485 | 54.393 | yes |
 | 2026-10-06T04:29:00.000Z | 120.23 | 120.25 | 120.22 | 120.24 | 453.313 | 174.046 | yes |
@@ -69,11 +68,12 @@ Last completed close: 2026-10-06T05:20:00.000Z
 | 2026-10-06T05:17:00.000Z | 120.12 | 120.12 | 120.08 | 120.08 | 337.194 | 81.616 | yes |
 | 2026-10-06T05:18:00.000Z | 120.09 | 120.09 | 120.07 | 120.07 | 365.751 | 186.84 | yes |
 | 2026-10-06T05:19:00.000Z | 120.07 | 120.1 | 120.07 | 120.08 | 739.519 | 417.806 | yes |
-| 2026-10-06T05:20:00.000Z | 120.09 | 120.13 | 120.06 | 120.07 | 742.805 | 342.793 | no |
+| 2026-10-06T05:20:00.000Z | 120.09 | 120.13 | 120.03 | 120.03 | 1111.18 | 342.793 | yes |
+| 2026-10-06T05:21:00.000Z | 120.04 | 120.04 | 120.03 | 120.04 | 18.059 | 9.252 | no |
 
 ## 5m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=160&interval=5m&endTime=1791264052607
-Captured: 2026-10-06T05:20:53.344Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=160&interval=5m&endTime=1791264073188
+Captured: 2026-10-06T05:21:13.914Z
 Last completed close: 2026-10-06T05:20:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -132,11 +132,11 @@ Last completed close: 2026-10-06T05:20:00.000Z
 | 2026-10-06T05:05:00.000Z | 120.07 | 120.35 | 120.06 | 120.26 | 2166.943 | 1590.624 | yes |
 | 2026-10-06T05:10:00.000Z | 120.26 | 120.26 | 120.16 | 120.16 | 1503.143 | 296.86 | yes |
 | 2026-10-06T05:15:00.000Z | 120.15 | 120.16 | 120.07 | 120.08 | 2379.727 | 956.219 | yes |
-| 2026-10-06T05:20:00.000Z | 120.09 | 120.13 | 120.06 | 120.07 | 742.805 | 342.793 | no |
+| 2026-10-06T05:20:00.000Z | 120.09 | 120.13 | 120.03 | 120.04 | 1129.239 | 352.045 | no |
 
 ## 15m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=160&interval=15m&endTime=1791264053344
-Captured: 2026-10-06T05:20:54.061Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=160&interval=15m&endTime=1791264073914
+Captured: 2026-10-06T05:21:14.628Z
 Last completed close: 2026-10-06T05:15:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -195,11 +195,11 @@ Last completed close: 2026-10-06T05:15:00.000Z
 | 2026-10-06T04:30:00.000Z | 120.24 | 120.37 | 120.18 | 120.28 | 6194.506 | 2721.271 | yes |
 | 2026-10-06T04:45:00.000Z | 120.29 | 120.32 | 120.06 | 120.1 | 8621.719 | 2554.201 | yes |
 | 2026-10-06T05:00:00.000Z | 120.1 | 120.35 | 120.01 | 120.16 | 5330.163 | 2858.209 | yes |
-| 2026-10-06T05:15:00.000Z | 120.15 | 120.16 | 120.06 | 120.07 | 3122.532 | 1299.012 | no |
+| 2026-10-06T05:15:00.000Z | 120.15 | 120.16 | 120.03 | 120.03 | 3511.646 | 1308.264 | no |
 
 ## 1h — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=240&interval=1h&endTime=1791264054061
-Captured: 2026-10-06T05:20:54.749Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=240&interval=1h&endTime=1791264074628
+Captured: 2026-10-06T05:21:15.356Z
 Last completed close: 2026-10-06T05:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -258,11 +258,11 @@ Last completed close: 2026-10-06T05:00:00.000Z
 | 2026-10-06T02:00:00.000Z | 120.66 | 120.8 | 120.16 | 120.2 | 39931.837 | 22313.71 | yes |
 | 2026-10-06T03:00:00.000Z | 120.21 | 120.32 | 119.72 | 120.03 | 39108.768 | 17739.984 | yes |
 | 2026-10-06T04:00:00.000Z | 120.02 | 120.37 | 120.02 | 120.1 | 27351.709 | 11535.499 | yes |
-| 2026-10-06T05:00:00.000Z | 120.1 | 120.35 | 120.01 | 120.07 | 8452.695 | 4157.221 | no |
+| 2026-10-06T05:00:00.000Z | 120.1 | 120.35 | 120.01 | 120.03 | 8841.809 | 4166.473 | no |
 
 ## 4h — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=120&interval=4h&endTime=1791264054749
-Captured: 2026-10-06T05:20:55.443Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=120&interval=4h&endTime=1791264075356
+Captured: 2026-10-06T05:21:16.099Z
 Last completed close: 2026-10-06T04:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -321,11 +321,11 @@ Last completed close: 2026-10-06T04:00:00.000Z
 | 2026-10-05T16:00:00.000Z | 119.34 | 120.36 | 118.93 | 120.28 | 206736.774 | 103923.409 | yes |
 | 2026-10-05T20:00:00.000Z | 120.28 | 121.59 | 120.16 | 120.78 | 175820.348 | 85677.52 | yes |
 | 2026-10-06T00:00:00.000Z | 120.79 | 121.28 | 119.72 | 120.03 | 157395.11 | 72963.721 | yes |
-| 2026-10-06T04:00:00.000Z | 120.02 | 120.37 | 120.01 | 120.06 | 35806.055 | 15692.72 | no |
+| 2026-10-06T04:00:00.000Z | 120.02 | 120.37 | 120.01 | 120.03 | 36194.389 | 15702.633 | no |
 
 ## 1d — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=80&interval=1d&endTime=1791264055443
-Captured: 2026-10-06T05:20:55.985Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=80&interval=1d&endTime=1791264076099
+Captured: 2026-10-06T05:21:16.682Z
 Last completed close: 2026-10-06T00:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -384,6 +384,6 @@ Last completed close: 2026-10-06T00:00:00.000Z
 | 2026-10-03T00:00:00.000Z | 118.65 | 120.09 | 118.52 | 119.62 | 880399.615 | 412429.819 | yes |
 | 2026-10-04T00:00:00.000Z | 119.61 | 122.29 | 119.59 | 121.6 | 1244947.8 | 603552.132 | yes |
 | 2026-10-05T00:00:00.000Z | 121.59 | 122.08 | 118.93 | 120.78 | 1605938.712 | 780335.468 | yes |
-| 2026-10-06T00:00:00.000Z | 120.79 | 121.28 | 119.72 | 120.06 | 193201.165 | 88656.441 | no |
+| 2026-10-06T00:00:00.000Z | 120.79 | 121.28 | 119.72 | 120.04 | 193589.56 | 88666.415 | no |
 
 Attempts: []

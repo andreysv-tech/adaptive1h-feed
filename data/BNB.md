@@ -1,7 +1,7 @@
 # BNBUSDT — public candles
 
 Status: OK; exchange: Binance
-Captured: 2026-10-06T16:50:18.416Z; expires: 2026-10-06T16:52:13.452Z
+Captured: 2026-10-06T16:53:58.875Z; expires: 2026-10-06T16:55:53.551Z
 Source: https://data-api.binance.vision
 Available fields: open_ms, open_utc, close_ms, open, high, low, close, volume, quote_volume, complete, taker_buy_base, trades
 Unavailable fields: 
@@ -9,15 +9,12 @@ Unavailable fields:
 Public data only. No forecasts. Exchange prices may differ.
 
 ## 1m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=120&interval=1m&endTime=1791305414064
-Captured: 2026-10-06T16:50:14.747Z
-Last completed close: 2026-10-06T16:50:00.000Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=120&interval=1m&endTime=1791305634528
+Captured: 2026-10-06T16:53:55.294Z
+Last completed close: 2026-10-06T16:53:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
 |---|---:|---:|---:|---:|---:|---:|---|
-| 2026-10-06T15:56:00.000Z | 783.98 | 783.98 | 783.55 | 783.7 | 66.763 | 30.246 | yes |
-| 2026-10-06T15:57:00.000Z | 783.69 | 783.69 | 783.25 | 783.39 | 94.68 | 26.798 | yes |
-| 2026-10-06T15:58:00.000Z | 783.4 | 783.4 | 783 | 783.01 | 64.87 | 6.316 | yes |
 | 2026-10-06T15:59:00.000Z | 783.01 | 783.06 | 782.71 | 782.84 | 84.711 | 34.336 | yes |
 | 2026-10-06T16:00:00.000Z | 782.84 | 783.28 | 782.55 | 783.25 | 109.517 | 26.311 | yes |
 | 2026-10-06T16:01:00.000Z | 783.26 | 783.74 | 782.88 | 782.94 | 61.152 | 45.551 | yes |
@@ -69,11 +66,14 @@ Last completed close: 2026-10-06T16:50:00.000Z
 | 2026-10-06T16:47:00.000Z | 783.51 | 783.69 | 783.48 | 783.48 | 30.844 | 9.823 | yes |
 | 2026-10-06T16:48:00.000Z | 783.46 | 783.46 | 783.04 | 783.05 | 19.688 | 11.719 | yes |
 | 2026-10-06T16:49:00.000Z | 783.05 | 783.13 | 782.88 | 782.94 | 18.933 | 4.246 | yes |
-| 2026-10-06T16:50:00.000Z | 782.95 | 783.2 | 782.95 | 783.2 | 125.85 | 113.024 | no |
+| 2026-10-06T16:50:00.000Z | 782.95 | 783.24 | 782.91 | 783.18 | 180.776 | 153.308 | yes |
+| 2026-10-06T16:51:00.000Z | 783.18 | 783.4 | 783.07 | 783.35 | 22.803 | 4.221 | yes |
+| 2026-10-06T16:52:00.000Z | 783.36 | 783.61 | 783.3 | 783.41 | 49.773 | 9.507 | yes |
+| 2026-10-06T16:53:00.000Z | 783.42 | 783.7 | 783.42 | 783.69 | 15.389 | 10.221 | no |
 
 ## 5m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=160&interval=5m&endTime=1791305414747
-Captured: 2026-10-06T16:50:15.421Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=160&interval=5m&endTime=1791305635294
+Captured: 2026-10-06T16:53:56.055Z
 Last completed close: 2026-10-06T16:50:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -132,11 +132,11 @@ Last completed close: 2026-10-06T16:50:00.000Z
 | 2026-10-06T16:35:00.000Z | 782.85 | 783 | 782.2 | 782.68 | 186.561 | 125.87 | yes |
 | 2026-10-06T16:40:00.000Z | 782.68 | 783.81 | 782.67 | 783.8 | 200.116 | 151.729 | yes |
 | 2026-10-06T16:45:00.000Z | 783.81 | 784 | 782.88 | 782.94 | 191.392 | 44.986 | yes |
-| 2026-10-06T16:50:00.000Z | 782.95 | 783.2 | 782.95 | 783.19 | 125.907 | 113.024 | no |
+| 2026-10-06T16:50:00.000Z | 782.95 | 783.7 | 782.91 | 783.69 | 269.652 | 177.257 | no |
 
 ## 15m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=160&interval=15m&endTime=1791305415421
-Captured: 2026-10-06T16:50:16.132Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=160&interval=15m&endTime=1791305636055
+Captured: 2026-10-06T16:53:56.782Z
 Last completed close: 2026-10-06T16:45:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -195,11 +195,11 @@ Last completed close: 2026-10-06T16:45:00.000Z
 | 2026-10-06T16:00:00.000Z | 782.84 | 783.81 | 782.41 | 783.15 | 1106.826 | 543.474 | yes |
 | 2026-10-06T16:15:00.000Z | 783.16 | 783.99 | 782.54 | 783.25 | 1393.641 | 445.9 | yes |
 | 2026-10-06T16:30:00.000Z | 783.24 | 783.81 | 782.2 | 783.8 | 824.919 | 427.846 | yes |
-| 2026-10-06T16:45:00.000Z | 783.81 | 784 | 782.88 | 783.19 | 317.299 | 158.01 | no |
+| 2026-10-06T16:45:00.000Z | 783.81 | 784 | 782.88 | 783.69 | 461.044 | 222.243 | no |
 
 ## 1h — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=240&interval=1h&endTime=1791305416132
-Captured: 2026-10-06T16:50:17.177Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=240&interval=1h&endTime=1791305636782
+Captured: 2026-10-06T16:53:57.500Z
 Last completed close: 2026-10-06T16:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -258,11 +258,11 @@ Last completed close: 2026-10-06T16:00:00.000Z
 | 2026-10-06T13:00:00.000Z | 785.85 | 786.24 | 783.8 | 784.86 | 3688.538 | 1967.816 | yes |
 | 2026-10-06T14:00:00.000Z | 784.87 | 786.11 | 782.6 | 786.08 | 3952.163 | 1706.264 | yes |
 | 2026-10-06T15:00:00.000Z | 786.08 | 786.87 | 782.71 | 782.84 | 3907.587 | 1637.905 | yes |
-| 2026-10-06T16:00:00.000Z | 782.84 | 784 | 782.2 | 783.19 | 3642.685 | 1575.23 | no |
+| 2026-10-06T16:00:00.000Z | 782.84 | 784 | 782.2 | 783.66 | 3791.878 | 1639.625 | no |
 
 ## 4h — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=120&interval=4h&endTime=1791305417177
-Captured: 2026-10-06T16:50:17.871Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=120&interval=4h&endTime=1791305637500
+Captured: 2026-10-06T16:53:58.265Z
 Last completed close: 2026-10-06T16:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -321,11 +321,11 @@ Last completed close: 2026-10-06T16:00:00.000Z
 | 2026-10-06T04:00:00.000Z | 780.87 | 783.06 | 778.06 | 779.72 | 14191.113 | 6358.604 | yes |
 | 2026-10-06T08:00:00.000Z | 779.71 | 785 | 779.61 | 783.71 | 13719.925 | 7434.71 | yes |
 | 2026-10-06T12:00:00.000Z | 783.71 | 786.87 | 782.6 | 782.84 | 16089.068 | 8391.13 | yes |
-| 2026-10-06T16:00:00.000Z | 782.84 | 784 | 782.2 | 783.19 | 3642.685 | 1575.23 | no |
+| 2026-10-06T16:00:00.000Z | 782.84 | 784 | 782.2 | 783.66 | 3791.878 | 1639.625 | no |
 
 ## 1d — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=80&interval=1d&endTime=1791305417871
-Captured: 2026-10-06T16:50:18.416Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=80&interval=1d&endTime=1791305638265
+Captured: 2026-10-06T16:53:58.875Z
 Last completed close: 2026-10-06T00:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -384,6 +384,6 @@ Last completed close: 2026-10-06T00:00:00.000Z
 | 2026-10-03T00:00:00.000Z | 768.25 | 792.82 | 764.83 | 786.88 | 99408.693 | 55625.473 | yes |
 | 2026-10-04T00:00:00.000Z | 786.88 | 797.89 | 782.15 | 795.43 | 76690.454 | 40649.377 | yes |
 | 2026-10-05T00:00:00.000Z | 795.42 | 809.99 | 784.7 | 786.43 | 142503.787 | 67564.542 | yes |
-| 2026-10-06T00:00:00.000Z | 786.42 | 788.05 | 778.06 | 783.19 | 66249.557 | 33240.953 | no |
+| 2026-10-06T00:00:00.000Z | 786.42 | 788.05 | 778.06 | 783.66 | 66398.75 | 33305.348 | no |
 
 Attempts: []

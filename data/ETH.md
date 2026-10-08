@@ -1,7 +1,7 @@
 # ETHUSDT — public candles
 
 Status: OK; exchange: Binance
-Captured: 2026-10-08T12:26:31.108Z; expires: 2026-10-08T12:28:26.402Z
+Captured: 2026-10-08T12:28:34.393Z; expires: 2026-10-08T12:30:29.187Z
 Source: https://data-api.binance.vision
 Available fields: open_ms, open_utc, close_ms, open, high, low, close, volume, quote_volume, complete, taker_buy_base, trades
 Unavailable fields: 
@@ -9,14 +9,12 @@ Unavailable fields:
 Public data only. No forecasts. Exchange prices may differ.
 
 ## 1m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=120&interval=1m&endTime=1791462387039
-Captured: 2026-10-08T12:26:27.748Z
-Last completed close: 2026-10-08T12:26:00.000Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=120&interval=1m&endTime=1791462510165
+Captured: 2026-10-08T12:28:30.845Z
+Last completed close: 2026-10-08T12:28:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
 |---|---:|---:|---:|---:|---:|---:|---|
-| 2026-10-08T11:32:00.000Z | 2538.43 | 2538.63 | 2536.96 | 2538.3 | 177.8664 | 95.8171 | yes |
-| 2026-10-08T11:33:00.000Z | 2538.31 | 2538.31 | 2536.13 | 2536.13 | 78.1935 | 17.5547 | yes |
 | 2026-10-08T11:34:00.000Z | 2536.13 | 2536.13 | 2531.62 | 2531.77 | 338.9208 | 86.6862 | yes |
 | 2026-10-08T11:35:00.000Z | 2531.76 | 2534.56 | 2531.76 | 2534.56 | 117.9518 | 66.3663 | yes |
 | 2026-10-08T11:36:00.000Z | 2534.55 | 2534.55 | 2531.62 | 2534.09 | 451.3817 | 335.5412 | yes |
@@ -69,11 +67,13 @@ Last completed close: 2026-10-08T12:26:00.000Z
 | 2026-10-08T12:23:00.000Z | 2535.68 | 2537.49 | 2535.68 | 2536.61 | 129.0342 | 79.7549 | yes |
 | 2026-10-08T12:24:00.000Z | 2536.61 | 2537.1 | 2535.73 | 2535.73 | 95.7036 | 33.8971 | yes |
 | 2026-10-08T12:25:00.000Z | 2535.72 | 2536.46 | 2535 | 2535 | 220.1608 | 160.7865 | yes |
-| 2026-10-08T12:26:00.000Z | 2535 | 2535.1 | 2533.93 | 2533.94 | 83.8446 | 66.616 | no |
+| 2026-10-08T12:26:00.000Z | 2535 | 2535.1 | 2533.1 | 2533.11 | 176.3591 | 139.3253 | yes |
+| 2026-10-08T12:27:00.000Z | 2533.1 | 2533.96 | 2532.17 | 2533.58 | 265.1082 | 193.8571 | yes |
+| 2026-10-08T12:28:00.000Z | 2533.59 | 2535.09 | 2533.19 | 2535.09 | 296.8763 | 216.2122 | no |
 
 ## 5m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=160&interval=5m&endTime=1791462387748
-Captured: 2026-10-08T12:26:28.436Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=160&interval=5m&endTime=1791462510845
+Captured: 2026-10-08T12:28:31.585Z
 Last completed close: 2026-10-08T12:25:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -132,11 +132,11 @@ Last completed close: 2026-10-08T12:25:00.000Z
 | 2026-10-08T12:10:00.000Z | 2536.85 | 2537.57 | 2534.66 | 2536.56 | 974.6896 | 573.3578 | yes |
 | 2026-10-08T12:15:00.000Z | 2536.57 | 2539.02 | 2532.27 | 2535.05 | 994.3145 | 503.4447 | yes |
 | 2026-10-08T12:20:00.000Z | 2535.04 | 2537.49 | 2533.21 | 2535.73 | 789.2622 | 455.6611 | yes |
-| 2026-10-08T12:25:00.000Z | 2535.72 | 2536.46 | 2533.93 | 2533.93 | 304.0084 | 227.4025 | no |
+| 2026-10-08T12:25:00.000Z | 2535.72 | 2536.46 | 2532.17 | 2535.35 | 958.8281 | 710.5048 | no |
 
 ## 15m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=160&interval=15m&endTime=1791462388436
-Captured: 2026-10-08T12:26:29.164Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=160&interval=15m&endTime=1791462511585
+Captured: 2026-10-08T12:28:32.458Z
 Last completed close: 2026-10-08T12:15:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -195,11 +195,11 @@ Last completed close: 2026-10-08T12:15:00.000Z
 | 2026-10-08T11:30:00.000Z | 2539.24 | 2544.8 | 2531.62 | 2541.84 | 3861.3998 | 2154.7767 | yes |
 | 2026-10-08T11:45:00.000Z | 2541.85 | 2543.71 | 2536.9 | 2537.43 | 2235.0977 | 889.4645 | yes |
 | 2026-10-08T12:00:00.000Z | 2537.42 | 2539.02 | 2530.04 | 2536.56 | 3632.4121 | 1908.8086 | yes |
-| 2026-10-08T12:15:00.000Z | 2536.57 | 2539.02 | 2532.27 | 2533.65 | 2095.5175 | 1186.5083 | no |
+| 2026-10-08T12:15:00.000Z | 2536.57 | 2539.02 | 2532.17 | 2535.36 | 2753.7568 | 1678.9896 | no |
 
 ## 1h — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=240&interval=1h&endTime=1791462389165
-Captured: 2026-10-08T12:26:29.845Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=240&interval=1h&endTime=1791462512458
+Captured: 2026-10-08T12:28:33.150Z
 Last completed close: 2026-10-08T12:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -258,11 +258,11 @@ Last completed close: 2026-10-08T12:00:00.000Z
 | 2026-10-08T09:00:00.000Z | 2560.08 | 2570 | 2556.06 | 2567.93 | 8287.0329 | 2989.6904 | yes |
 | 2026-10-08T10:00:00.000Z | 2567.94 | 2569.43 | 2548.38 | 2551.39 | 10271.2896 | 3418.0617 | yes |
 | 2026-10-08T11:00:00.000Z | 2551.4 | 2551.76 | 2527.57 | 2537.43 | 23147.6347 | 8725.848 | yes |
-| 2026-10-08T12:00:00.000Z | 2537.42 | 2539.02 | 2530.04 | 2533.65 | 5727.9296 | 3095.3169 | no |
+| 2026-10-08T12:00:00.000Z | 2537.42 | 2539.02 | 2530.04 | 2535.36 | 6386.1723 | 3587.8016 | no |
 
 ## 4h — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=120&interval=4h&endTime=1791462389845
-Captured: 2026-10-08T12:26:30.567Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=120&interval=4h&endTime=1791462513150
+Captured: 2026-10-08T12:28:33.831Z
 Last completed close: 2026-10-08T12:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -321,11 +321,11 @@ Last completed close: 2026-10-08T12:00:00.000Z
 | 2026-10-08T00:00:00.000Z | 2574.15 | 2587.28 | 2563.55 | 2564.34 | 37149.9999 | 14309.564 | yes |
 | 2026-10-08T04:00:00.000Z | 2564.35 | 2577.39 | 2545.19 | 2568.41 | 46061.9328 | 21647.3012 | yes |
 | 2026-10-08T08:00:00.000Z | 2568.42 | 2570.79 | 2527.57 | 2537.43 | 53153.4667 | 20993.69 | yes |
-| 2026-10-08T12:00:00.000Z | 2537.42 | 2539.02 | 2530.04 | 2533.65 | 5727.9296 | 3095.3169 | no |
+| 2026-10-08T12:00:00.000Z | 2537.42 | 2539.02 | 2530.04 | 2535.4 | 6410.0248 | 3611.6541 | no |
 
 ## 1d — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=80&interval=1d&endTime=1791462390567
-Captured: 2026-10-08T12:26:31.108Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=80&interval=1d&endTime=1791462513831
+Captured: 2026-10-08T12:28:34.393Z
 Last completed close: 2026-10-08T00:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -384,6 +384,6 @@ Last completed close: 2026-10-08T00:00:00.000Z
 | 2026-10-05T00:00:00.000Z | 2726.93 | 2738 | 2679.63 | 2709.98 | 270467.8794 | 150587.9113 | yes |
 | 2026-10-06T00:00:00.000Z | 2709.99 | 2725.13 | 2683.73 | 2697.49 | 231675.4026 | 90710.3172 | yes |
 | 2026-10-07T00:00:00.000Z | 2697.49 | 2699.8 | 2538.06 | 2574.14 | 436407.8603 | 177367.9717 | yes |
-| 2026-10-08T00:00:00.000Z | 2574.15 | 2587.28 | 2527.57 | 2533.46 | 142098.9928 | 60045.8721 | no |
+| 2026-10-08T00:00:00.000Z | 2574.15 | 2587.28 | 2527.57 | 2535.4 | 142775.4242 | 60562.2093 | no |
 
 Attempts: []

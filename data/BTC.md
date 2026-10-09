@@ -1,7 +1,7 @@
 # BTCUSDT — public candles
 
 Status: OK; exchange: Binance
-Captured: 2026-10-09T04:50:40.407Z; expires: 2026-10-09T04:52:34.894Z
+Captured: 2026-10-09T04:53:55.152Z; expires: 2026-10-09T04:55:48.793Z
 Source: https://data-api.binance.vision
 Available fields: open_ms, open_utc, close_ms, open, high, low, close, volume, quote_volume, complete, taker_buy_base, trades
 Unavailable fields: 
@@ -9,15 +9,12 @@ Unavailable fields:
 Public data only. No forecasts. Exchange prices may differ.
 
 ## 1m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=120&interval=1m&endTime=1791521435668
-Captured: 2026-10-09T04:50:36.473Z
-Last completed close: 2026-10-09T04:50:00.000Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=120&interval=1m&endTime=1791521629506
+Captured: 2026-10-09T04:53:50.658Z
+Last completed close: 2026-10-09T04:53:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
 |---|---:|---:|---:|---:|---:|---:|---|
-| 2026-10-09T03:56:00.000Z | 82388.01 | 82394.35 | 82380 | 82394.34 | 15.24838 | 3.2129 | yes |
-| 2026-10-09T03:57:00.000Z | 82394.35 | 82428.87 | 82394.34 | 82428.86 | 13.92878 | 5.7638 | yes |
-| 2026-10-09T03:58:00.000Z | 82428.87 | 82428.87 | 82420.44 | 82420.45 | 12.04963 | 0.33304 | yes |
 | 2026-10-09T03:59:00.000Z | 82420.45 | 82433.61 | 82420.44 | 82427.72 | 13.28867 | 12.36858 | yes |
 | 2026-10-09T04:00:00.000Z | 82427.73 | 82440.24 | 82427.72 | 82427.72 | 10.06938 | 4.76127 | yes |
 | 2026-10-09T04:01:00.000Z | 82427.72 | 82504.01 | 82427.72 | 82504.01 | 22.34248 | 22.03082 | yes |
@@ -69,11 +66,14 @@ Last completed close: 2026-10-09T04:50:00.000Z
 | 2026-10-09T04:47:00.000Z | 82314.01 | 82314.01 | 82300 | 82300.01 | 11.00967 | 0.62252 | yes |
 | 2026-10-09T04:48:00.000Z | 82300.01 | 82300.01 | 82288 | 82294.01 | 4.08514 | 0.79282 | yes |
 | 2026-10-09T04:49:00.000Z | 82294 | 82294.01 | 82278 | 82278 | 2.68216 | 0.34984 | yes |
-| 2026-10-09T04:50:00.000Z | 82278 | 82278.01 | 82260 | 82260 | 6.40147 | 0.18934 | no |
+| 2026-10-09T04:50:00.000Z | 82278 | 82278.01 | 82250 | 82250.01 | 7.866 | 0.86685 | yes |
+| 2026-10-09T04:51:00.000Z | 82250 | 82280.01 | 82209.2 | 82272.01 | 75.22571 | 61.898 | yes |
+| 2026-10-09T04:52:00.000Z | 82272.01 | 82274.74 | 82250 | 82250 | 3.7262 | 1.98326 | yes |
+| 2026-10-09T04:53:00.000Z | 82250.01 | 82252.01 | 82250 | 82252 | 1.19432 | 0.55362 | no |
 
 ## 5m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=160&interval=5m&endTime=1791521436473
-Captured: 2026-10-09T04:50:37.293Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=160&interval=5m&endTime=1791521630658
+Captured: 2026-10-09T04:53:51.443Z
 Last completed close: 2026-10-09T04:50:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -132,11 +132,11 @@ Last completed close: 2026-10-09T04:50:00.000Z
 | 2026-10-09T04:35:00.000Z | 82450 | 82485.26 | 82382.69 | 82382.69 | 42.0799 | 31.19431 | yes |
 | 2026-10-09T04:40:00.000Z | 82382.7 | 82382.7 | 82330.32 | 82336.8 | 29.23375 | 14.21305 | yes |
 | 2026-10-09T04:45:00.000Z | 82336.79 | 82336.8 | 82278 | 82278 | 22.08533 | 2.44127 | yes |
-| 2026-10-09T04:50:00.000Z | 82278 | 82278.01 | 82260 | 82260 | 6.40147 | 0.18934 | no |
+| 2026-10-09T04:50:00.000Z | 82278 | 82280.01 | 82209.2 | 82252 | 88.03903 | 65.30173 | no |
 
 ## 15m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=160&interval=15m&endTime=1791521437293
-Captured: 2026-10-09T04:50:38.156Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=160&interval=15m&endTime=1791521631443
+Captured: 2026-10-09T04:53:52.431Z
 Last completed close: 2026-10-09T04:45:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -195,11 +195,11 @@ Last completed close: 2026-10-09T04:45:00.000Z
 | 2026-10-09T04:00:00.000Z | 82427.73 | 82516.01 | 82420 | 82514.42 | 135.48305 | 93.68574 | yes |
 | 2026-10-09T04:15:00.000Z | 82514.42 | 82521.38 | 82434.08 | 82434.08 | 77.74581 | 28.51373 | yes |
 | 2026-10-09T04:30:00.000Z | 82434.09 | 82485.26 | 82330.32 | 82336.8 | 90.89165 | 60.7396 | yes |
-| 2026-10-09T04:45:00.000Z | 82336.79 | 82336.8 | 82260 | 82260.01 | 28.48748 | 2.63129 | no |
+| 2026-10-09T04:45:00.000Z | 82336.79 | 82336.8 | 82209.2 | 82248 | 110.62491 | 67.74352 | no |
 
 ## 1h — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=240&interval=1h&endTime=1791521438156
-Captured: 2026-10-09T04:50:38.983Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=240&interval=1h&endTime=1791521632431
+Captured: 2026-10-09T04:53:53.412Z
 Last completed close: 2026-10-09T04:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -258,11 +258,11 @@ Last completed close: 2026-10-09T04:00:00.000Z
 | 2026-10-09T01:00:00.000Z | 81808 | 81996.01 | 81603.52 | 81974 | 418.08195 | 188.55632 | yes |
 | 2026-10-09T02:00:00.000Z | 81974.01 | 82356.2 | 81910.44 | 82113.4 | 715.67476 | 418.62497 | yes |
 | 2026-10-09T03:00:00.000Z | 82113.41 | 82438.28 | 82045.45 | 82427.72 | 520.11222 | 333.81354 | yes |
-| 2026-10-09T04:00:00.000Z | 82427.73 | 82521.38 | 82258 | 82258 | 332.6431 | 185.57036 | no |
+| 2026-10-09T04:00:00.000Z | 82427.73 | 82521.38 | 82209.2 | 82248 | 414.74542 | 250.68259 | no |
 
 ## 4h — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=120&interval=4h&endTime=1791521438983
-Captured: 2026-10-09T04:50:39.773Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=120&interval=4h&endTime=1791521633412
+Captured: 2026-10-09T04:53:54.523Z
 Last completed close: 2026-10-09T04:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -321,11 +321,11 @@ Last completed close: 2026-10-09T04:00:00.000Z
 | 2026-10-08T16:00:00.000Z | 81037.99 | 81839.73 | 80393.56 | 81775.52 | 5208.93362 | 2576.66034 | yes |
 | 2026-10-08T20:00:00.000Z | 81775.52 | 81948.03 | 81617.99 | 81754.45 | 1622.4932 | 923.38883 | yes |
 | 2026-10-09T00:00:00.000Z | 81754.46 | 82438.28 | 81603.52 | 82427.72 | 2086.34842 | 1139.94707 | yes |
-| 2026-10-09T04:00:00.000Z | 82427.73 | 82521.38 | 82258 | 82258 | 332.6431 | 185.57036 | no |
+| 2026-10-09T04:00:00.000Z | 82427.73 | 82521.38 | 82209.2 | 82240.72 | 415.13733 | 250.71851 | no |
 
 ## 1d — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=80&interval=1d&endTime=1791521439773
-Captured: 2026-10-09T04:50:40.407Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=80&interval=1d&endTime=1791521634523
+Captured: 2026-10-09T04:53:55.152Z
 Last completed close: 2026-10-09T00:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -384,6 +384,6 @@ Last completed close: 2026-10-09T00:00:00.000Z
 | 2026-10-06T00:00:00.000Z | 85766.87 | 86698.99 | 85136.11 | 85549.93 | 12614.47572 | 6208.52054 | yes |
 | 2026-10-07T00:00:00.000Z | 85549.94 | 85598.22 | 82787.25 | 83321.81 | 20838.08376 | 10212.14396 | yes |
 | 2026-10-08T00:00:00.000Z | 83321.81 | 83521.15 | 80393.56 | 81754.45 | 21676.96164 | 10561.90119 | yes |
-| 2026-10-09T00:00:00.000Z | 81754.46 | 82521.38 | 81603.52 | 82258 | 2418.99408 | 1325.51743 | no |
+| 2026-10-09T00:00:00.000Z | 81754.46 | 82521.38 | 81603.52 | 82238.01 | 2501.64093 | 1390.6658 | no |
 
 Attempts: []

@@ -1,7 +1,7 @@
 # DOGEUSDT — public candles
 
 Status: OK; exchange: Binance
-Captured: 2026-10-09T01:53:51.105Z; expires: 2026-10-09T01:55:46.705Z
+Captured: 2026-10-09T01:55:11.790Z; expires: 2026-10-09T01:57:08.011Z
 Source: https://data-api.binance.vision
 Available fields: open_ms, open_utc, close_ms, open, high, low, close, volume, quote_volume, complete, taker_buy_base, trades
 Unavailable fields: 
@@ -9,14 +9,12 @@ Unavailable fields:
 Public data only. No forecasts. Exchange prices may differ.
 
 ## 1m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=120&interval=1m&endTime=1791510827430
-Captured: 2026-10-09T01:53:48.006Z
-Last completed close: 2026-10-09T01:53:00.000Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=120&interval=1m&endTime=1791510908541
+Captured: 2026-10-09T01:55:09.095Z
+Last completed close: 2026-10-09T01:55:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
 |---|---:|---:|---:|---:|---:|---:|---|
-| 2026-10-09T00:59:00.000Z | 0.08427 | 0.08428 | 0.08426 | 0.08428 | 39328 | 15680 | yes |
-| 2026-10-09T01:00:00.000Z | 0.08428 | 0.0843 | 0.08422 | 0.08425 | 372227 | 16844 | yes |
 | 2026-10-09T01:01:00.000Z | 0.08424 | 0.08434 | 0.08424 | 0.08426 | 82865 | 63379 | yes |
 | 2026-10-09T01:02:00.000Z | 0.08426 | 0.08434 | 0.08426 | 0.08434 | 354346 | 335969 | yes |
 | 2026-10-09T01:03:00.000Z | 0.08435 | 0.08439 | 0.08425 | 0.08429 | 91660 | 44686 | yes |
@@ -69,16 +67,17 @@ Last completed close: 2026-10-09T01:53:00.000Z
 | 2026-10-09T01:50:00.000Z | 0.08487 | 0.08489 | 0.08485 | 0.08486 | 18403 | 8692 | yes |
 | 2026-10-09T01:51:00.000Z | 0.08486 | 0.08488 | 0.08484 | 0.08486 | 91843 | 26400 | yes |
 | 2026-10-09T01:52:00.000Z | 0.08485 | 0.08485 | 0.08477 | 0.08478 | 157950 | 5471 | yes |
-| 2026-10-09T01:53:00.000Z | 0.08477 | 0.08479 | 0.08476 | 0.08479 | 51776 | 45530 | no |
+| 2026-10-09T01:53:00.000Z | 0.08477 | 0.08479 | 0.08476 | 0.08476 | 53465 | 45530 | yes |
+| 2026-10-09T01:54:00.000Z | 0.08477 | 0.08479 | 0.08477 | 0.08477 | 30922 | 4618 | yes |
+| 2026-10-09T01:55:00.000Z | 0.08477 | 0.08477 | 0.08477 | 0.08477 | 351 | 0 | no |
 
 ## 5m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=160&interval=5m&endTime=1791510828006
-Captured: 2026-10-09T01:53:48.959Z
-Last completed close: 2026-10-09T01:50:00.000Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=160&interval=5m&endTime=1791510909095
+Captured: 2026-10-09T01:55:09.657Z
+Last completed close: 2026-10-09T01:55:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
 |---|---:|---:|---:|---:|---:|---:|---|
-| 2026-10-08T21:20:00.000Z | 0.08441 | 0.08446 | 0.08425 | 0.08425 | 2937602 | 1082645 | yes |
 | 2026-10-08T21:25:00.000Z | 0.08424 | 0.08436 | 0.08421 | 0.08425 | 2849223 | 1242009 | yes |
 | 2026-10-08T21:30:00.000Z | 0.08425 | 0.08428 | 0.08421 | 0.08425 | 1444226 | 753962 | yes |
 | 2026-10-08T21:35:00.000Z | 0.08425 | 0.08444 | 0.08425 | 0.08439 | 2581886 | 1661850 | yes |
@@ -132,11 +131,12 @@ Last completed close: 2026-10-09T01:50:00.000Z
 | 2026-10-09T01:35:00.000Z | 0.08466 | 0.08466 | 0.08456 | 0.0846 | 802207 | 249831 | yes |
 | 2026-10-09T01:40:00.000Z | 0.08461 | 0.08495 | 0.0846 | 0.08489 | 1853406 | 918986 | yes |
 | 2026-10-09T01:45:00.000Z | 0.08488 | 0.08489 | 0.08478 | 0.08488 | 1346382 | 713776 | yes |
-| 2026-10-09T01:50:00.000Z | 0.08487 | 0.08489 | 0.08476 | 0.08478 | 320060 | 86093 | no |
+| 2026-10-09T01:50:00.000Z | 0.08487 | 0.08489 | 0.08476 | 0.08477 | 352583 | 90711 | yes |
+| 2026-10-09T01:55:00.000Z | 0.08477 | 0.08477 | 0.08477 | 0.08477 | 406 | 0 | no |
 
 ## 15m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=160&interval=15m&endTime=1791510828959
-Captured: 2026-10-09T01:53:49.512Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=160&interval=15m&endTime=1791510909657
+Captured: 2026-10-09T01:55:10.215Z
 Last completed close: 2026-10-09T01:45:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -195,11 +195,11 @@ Last completed close: 2026-10-09T01:45:00.000Z
 | 2026-10-09T01:00:00.000Z | 0.08428 | 0.08439 | 0.08414 | 0.08427 | 2725190 | 1181336 | yes |
 | 2026-10-09T01:15:00.000Z | 0.08428 | 0.08485 | 0.08416 | 0.08459 | 4789196 | 2302131 | yes |
 | 2026-10-09T01:30:00.000Z | 0.08458 | 0.08495 | 0.08448 | 0.08489 | 3594910 | 1738277 | yes |
-| 2026-10-09T01:45:00.000Z | 0.08488 | 0.08489 | 0.08476 | 0.08478 | 1666442 | 799869 | no |
+| 2026-10-09T01:45:00.000Z | 0.08488 | 0.08489 | 0.08476 | 0.08477 | 1699371 | 804487 | no |
 
 ## 1h — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=240&interval=1h&endTime=1791510829512
-Captured: 2026-10-09T01:53:50.076Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=240&interval=1h&endTime=1791510910215
+Captured: 2026-10-09T01:55:10.772Z
 Last completed close: 2026-10-09T01:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -258,11 +258,11 @@ Last completed close: 2026-10-09T01:00:00.000Z
 | 2026-10-08T22:00:00.000Z | 0.08437 | 0.08462 | 0.08431 | 0.0845 | 15009604 | 7888500 | yes |
 | 2026-10-08T23:00:00.000Z | 0.08449 | 0.08471 | 0.08398 | 0.08404 | 24495192 | 7651800 | yes |
 | 2026-10-09T00:00:00.000Z | 0.08405 | 0.08443 | 0.0839 | 0.08428 | 12066064 | 6314320 | yes |
-| 2026-10-09T01:00:00.000Z | 0.08428 | 0.08495 | 0.08414 | 0.08478 | 12775738 | 6021613 | no |
+| 2026-10-09T01:00:00.000Z | 0.08428 | 0.08495 | 0.08414 | 0.08477 | 12808667 | 6026231 | no |
 
 ## 4h — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=120&interval=4h&endTime=1791510830076
-Captured: 2026-10-09T01:53:50.640Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=120&interval=4h&endTime=1791510910773
+Captured: 2026-10-09T01:55:11.333Z
 Last completed close: 2026-10-09T00:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -321,11 +321,11 @@ Last completed close: 2026-10-09T00:00:00.000Z
 | 2026-10-08T12:00:00.000Z | 0.08715 | 0.08756 | 0.082 | 0.08266 | 529516220 | 241030591 | yes |
 | 2026-10-08T16:00:00.000Z | 0.08267 | 0.08393 | 0.08108 | 0.08378 | 274182146 | 144672998 | yes |
 | 2026-10-08T20:00:00.000Z | 0.08378 | 0.08471 | 0.08378 | 0.08404 | 85038867 | 39781957 | yes |
-| 2026-10-09T00:00:00.000Z | 0.08405 | 0.08495 | 0.0839 | 0.08478 | 24841802 | 12335933 | no |
+| 2026-10-09T00:00:00.000Z | 0.08405 | 0.08495 | 0.0839 | 0.08477 | 24874731 | 12340551 | no |
 
 ## 1d — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=80&interval=1d&endTime=1791510830640
-Captured: 2026-10-09T01:53:51.105Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=80&interval=1d&endTime=1791510911333
+Captured: 2026-10-09T01:55:11.790Z
 Last completed close: 2026-10-09T00:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -384,6 +384,6 @@ Last completed close: 2026-10-09T00:00:00.000Z
 | 2026-10-06T00:00:00.000Z | 0.09542 | 0.09639 | 0.09322 | 0.09369 | 752341473 | 298757597 | yes |
 | 2026-10-07T00:00:00.000Z | 0.09369 | 0.0939 | 0.08781 | 0.08904 | 1275056620 | 557699179 | yes |
 | 2026-10-08T00:00:00.000Z | 0.08903 | 0.08971 | 0.08108 | 0.08404 | 1392249034 | 650556776 | yes |
-| 2026-10-09T00:00:00.000Z | 0.08405 | 0.08495 | 0.0839 | 0.08478 | 24841802 | 12335933 | no |
+| 2026-10-09T00:00:00.000Z | 0.08405 | 0.08495 | 0.0839 | 0.08477 | 24874731 | 12340551 | no |
 
 Attempts: []

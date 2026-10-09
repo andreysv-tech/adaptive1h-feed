@@ -1,7 +1,7 @@
 # XRPUSDT — public candles
 
 Status: OK; exchange: Binance
-Captured: 2026-10-09T09:54:20.415Z; expires: 2026-10-09T09:56:15.679Z
+Captured: 2026-10-09T09:57:55.532Z; expires: 2026-10-09T09:59:50.476Z
 Source: https://data-api.binance.vision
 Available fields: open_ms, open_utc, close_ms, open, high, low, close, volume, quote_volume, complete, taker_buy_base, trades
 Unavailable fields: 
@@ -9,15 +9,12 @@ Unavailable fields:
 Public data only. No forecasts. Exchange prices may differ.
 
 ## 1m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=120&interval=1m&endTime=1791539656329
-Captured: 2026-10-09T09:54:17.064Z
-Last completed close: 2026-10-09T09:54:00.000Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=120&interval=1m&endTime=1791539871146
+Captured: 2026-10-09T09:57:51.840Z
+Last completed close: 2026-10-09T09:57:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
 |---|---:|---:|---:|---:|---:|---:|---|
-| 2026-10-09T09:00:00.000Z | 1.4043 | 1.4046 | 1.4035 | 1.4035 | 45027.4 | 14249.1 | yes |
-| 2026-10-09T09:01:00.000Z | 1.4035 | 1.4041 | 1.4033 | 1.4034 | 29099.1 | 12493.4 | yes |
-| 2026-10-09T09:02:00.000Z | 1.4033 | 1.4034 | 1.4028 | 1.4028 | 12383.1 | 2023 | yes |
 | 2026-10-09T09:03:00.000Z | 1.4028 | 1.403 | 1.4024 | 1.4024 | 15456.9 | 5139.3 | yes |
 | 2026-10-09T09:04:00.000Z | 1.4025 | 1.403 | 1.402 | 1.402 | 18725.3 | 12280.7 | yes |
 | 2026-10-09T09:05:00.000Z | 1.4021 | 1.4027 | 1.4019 | 1.4024 | 77364.1 | 52670.7 | yes |
@@ -69,16 +66,18 @@ Last completed close: 2026-10-09T09:54:00.000Z
 | 2026-10-09T09:51:00.000Z | 1.3999 | 1.4003 | 1.3997 | 1.4003 | 60920.1 | 42643.2 | yes |
 | 2026-10-09T09:52:00.000Z | 1.4003 | 1.4003 | 1.3999 | 1.4001 | 35295.3 | 31662.4 | yes |
 | 2026-10-09T09:53:00.000Z | 1.4002 | 1.4002 | 1.4001 | 1.4001 | 1862 | 1276.7 | yes |
-| 2026-10-09T09:54:00.000Z | 1.4002 | 1.4006 | 1.4 | 1.4006 | 73052.7 | 71302.6 | no |
+| 2026-10-09T09:54:00.000Z | 1.4002 | 1.4007 | 1.4 | 1.4006 | 82870.5 | 79379.9 | yes |
+| 2026-10-09T09:55:00.000Z | 1.4007 | 1.4007 | 1.4004 | 1.4004 | 56644.4 | 2205.4 | yes |
+| 2026-10-09T09:56:00.000Z | 1.4004 | 1.4004 | 1.4003 | 1.4004 | 51658.4 | 47309 | yes |
+| 2026-10-09T09:57:00.000Z | 1.4004 | 1.4005 | 1.4003 | 1.4005 | 22154.6 | 9831 | no |
 
 ## 5m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=160&interval=5m&endTime=1791539657064
-Captured: 2026-10-09T09:54:17.783Z
-Last completed close: 2026-10-09T09:50:00.000Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=160&interval=5m&endTime=1791539871840
+Captured: 2026-10-09T09:57:52.553Z
+Last completed close: 2026-10-09T09:55:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
 |---|---:|---:|---:|---:|---:|---:|---|
-| 2026-10-09T05:20:00.000Z | 1.3988 | 1.3988 | 1.3962 | 1.3972 | 369494.8 | 215034.7 | yes |
 | 2026-10-09T05:25:00.000Z | 1.3972 | 1.3996 | 1.3971 | 1.3994 | 578917.8 | 440285.6 | yes |
 | 2026-10-09T05:30:00.000Z | 1.3995 | 1.4018 | 1.3992 | 1.4015 | 779815.1 | 597207.6 | yes |
 | 2026-10-09T05:35:00.000Z | 1.4014 | 1.4016 | 1.4002 | 1.4002 | 481824.3 | 207724.9 | yes |
@@ -132,11 +131,12 @@ Last completed close: 2026-10-09T09:50:00.000Z
 | 2026-10-09T09:35:00.000Z | 1.4 | 1.4004 | 1.3985 | 1.3991 | 149692.7 | 57899.8 | yes |
 | 2026-10-09T09:40:00.000Z | 1.3991 | 1.4004 | 1.399 | 1.4003 | 198284.6 | 72104.4 | yes |
 | 2026-10-09T09:45:00.000Z | 1.4004 | 1.4011 | 1.4001 | 1.4011 | 82112.3 | 27936.3 | yes |
-| 2026-10-09T09:50:00.000Z | 1.4011 | 1.4011 | 1.3997 | 1.4006 | 218118.9 | 150025.8 | no |
+| 2026-10-09T09:50:00.000Z | 1.4011 | 1.4011 | 1.3997 | 1.4006 | 227936.7 | 158103.1 | yes |
+| 2026-10-09T09:55:00.000Z | 1.4007 | 1.4007 | 1.4003 | 1.4005 | 130457.4 | 59345.4 | no |
 
 ## 15m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=160&interval=15m&endTime=1791539657783
-Captured: 2026-10-09T09:54:18.462Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=160&interval=15m&endTime=1791539872553
+Captured: 2026-10-09T09:57:53.245Z
 Last completed close: 2026-10-09T09:45:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -195,11 +195,11 @@ Last completed close: 2026-10-09T09:45:00.000Z
 | 2026-10-09T09:00:00.000Z | 1.4043 | 1.4046 | 1.4011 | 1.4016 | 441185.7 | 180438.9 | yes |
 | 2026-10-09T09:15:00.000Z | 1.4017 | 1.4025 | 1.4 | 1.401 | 895777.7 | 343607.4 | yes |
 | 2026-10-09T09:30:00.000Z | 1.401 | 1.4011 | 1.3985 | 1.4003 | 462704.7 | 177056.4 | yes |
-| 2026-10-09T09:45:00.000Z | 1.4004 | 1.4011 | 1.3997 | 1.4006 | 300231.2 | 177962.1 | no |
+| 2026-10-09T09:45:00.000Z | 1.4004 | 1.4011 | 1.3997 | 1.4005 | 440506.4 | 245384.8 | no |
 
 ## 1h — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=240&interval=1h&endTime=1791539658462
-Captured: 2026-10-09T09:54:19.176Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=240&interval=1h&endTime=1791539873245
+Captured: 2026-10-09T09:57:53.966Z
 Last completed close: 2026-10-09T09:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -258,11 +258,11 @@ Last completed close: 2026-10-09T09:00:00.000Z
 | 2026-10-09T06:00:00.000Z | 1.3967 | 1.4035 | 1.3962 | 1.4004 | 3754520.5 | 2011864.7 | yes |
 | 2026-10-09T07:00:00.000Z | 1.4005 | 1.4052 | 1.3981 | 1.404 | 2797672.7 | 1191465.1 | yes |
 | 2026-10-09T08:00:00.000Z | 1.404 | 1.4071 | 1.3988 | 1.4044 | 3316591.3 | 1411858.2 | yes |
-| 2026-10-09T09:00:00.000Z | 1.4043 | 1.4046 | 1.3985 | 1.4006 | 2099899.3 | 879064.8 | no |
+| 2026-10-09T09:00:00.000Z | 1.4043 | 1.4046 | 1.3985 | 1.4004 | 2243015.5 | 946487.5 | no |
 
 ## 4h — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=120&interval=4h&endTime=1791539659176
-Captured: 2026-10-09T09:54:19.857Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=120&interval=4h&endTime=1791539873966
+Captured: 2026-10-09T09:57:54.973Z
 Last completed close: 2026-10-09T08:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -321,11 +321,11 @@ Last completed close: 2026-10-09T08:00:00.000Z
 | 2026-10-08T20:00:00.000Z | 1.3731 | 1.3926 | 1.3728 | 1.3805 | 14939109.6 | 7471621.7 | yes |
 | 2026-10-09T00:00:00.000Z | 1.3805 | 1.3989 | 1.3804 | 1.3956 | 14836313.1 | 8148420.2 | yes |
 | 2026-10-09T04:00:00.000Z | 1.3957 | 1.4052 | 1.3908 | 1.404 | 14636332 | 7844631.2 | yes |
-| 2026-10-09T08:00:00.000Z | 1.404 | 1.4071 | 1.3985 | 1.4006 | 5416490.6 | 2290923 | no |
+| 2026-10-09T08:00:00.000Z | 1.404 | 1.4071 | 1.3985 | 1.4004 | 5559606.8 | 2358345.7 | no |
 
 ## 1d — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=80&interval=1d&endTime=1791539659857
-Captured: 2026-10-09T09:54:20.415Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=80&interval=1d&endTime=1791539874973
+Captured: 2026-10-09T09:57:55.532Z
 Last completed close: 2026-10-09T00:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -384,6 +384,6 @@ Last completed close: 2026-10-09T00:00:00.000Z
 | 2026-10-06T00:00:00.000Z | 1.5076 | 1.524 | 1.4907 | 1.4971 | 77802819.1 | 41389907 | yes |
 | 2026-10-07T00:00:00.000Z | 1.497 | 1.4996 | 1.4067 | 1.4215 | 164812561.7 | 81388191.3 | yes |
 | 2026-10-08T00:00:00.000Z | 1.4214 | 1.4295 | 1.3189 | 1.3805 | 182966023.7 | 89419260.9 | yes |
-| 2026-10-09T00:00:00.000Z | 1.3805 | 1.4071 | 1.3804 | 1.4006 | 34889135.7 | 18283974.4 | no |
+| 2026-10-09T00:00:00.000Z | 1.3805 | 1.4071 | 1.3804 | 1.4004 | 35032251.9 | 18351397.1 | no |
 
 Attempts: []

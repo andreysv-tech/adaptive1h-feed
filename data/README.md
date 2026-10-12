@@ -1,6 +1,6 @@
 # Adaptive 1H data status
 
-Collection started: 2026-10-12T15:02:59.719Z / 2026-10-12T18:02:59+03:00
+Collection started: 2026-10-12T15:24:20.579Z / 2026-10-12T18:24:20+03:00
 Freshness must be checked at read time; OK is a collection-time result.
 
 | Asset | Exchange | 1m | 5m | 15m | 1h | 4h | 1d |

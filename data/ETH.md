@@ -1,7 +1,7 @@
 # ETHUSDT — public candles
 
 Status: OK; exchange: Binance
-Captured: 2026-10-16T03:06:11.118Z; expires: 2026-10-16T03:08:07.185Z
+Captured: 2026-10-16T03:06:34.966Z; expires: 2026-10-16T03:08:30.189Z
 Source: https://data-api.binance.vision
 Available fields: open_ms, open_utc, close_ms, open, high, low, close, volume, quote_volume, complete, taker_buy_base, trades
 Unavailable fields: 
@@ -9,8 +9,8 @@ Unavailable fields:
 Public data only. No forecasts. Exchange prices may differ.
 
 ## 1m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=120&interval=1m&endTime=1792119967698
-Captured: 2026-10-16T03:06:08.250Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=120&interval=1m&endTime=1792119991129
+Captured: 2026-10-16T03:06:31.910Z
 Last completed close: 2026-10-16T03:06:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -69,11 +69,11 @@ Last completed close: 2026-10-16T03:06:00.000Z
 | 2026-10-16T03:03:00.000Z | 2440.36 | 2441.08 | 2440.33 | 2441.07 | 412.0193 | 200.7465 | yes |
 | 2026-10-16T03:04:00.000Z | 2441.08 | 2441.42 | 2440.39 | 2441.42 | 64.6426 | 51.8616 | yes |
 | 2026-10-16T03:05:00.000Z | 2441.42 | 2442.6 | 2441.4 | 2442.6 | 69.1163 | 37.5113 | yes |
-| 2026-10-16T03:06:00.000Z | 2442.59 | 2442.78 | 2442.59 | 2442.77 | 59.8538 | 57.7398 | no |
+| 2026-10-16T03:06:00.000Z | 2442.59 | 2442.78 | 2442.27 | 2442.46 | 544.9409 | 432.5833 | no |
 
 ## 5m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=160&interval=5m&endTime=1792119968250
-Captured: 2026-10-16T03:06:08.803Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=160&interval=5m&endTime=1792119991910
+Captured: 2026-10-16T03:06:32.751Z
 Last completed close: 2026-10-16T03:05:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -132,11 +132,11 @@ Last completed close: 2026-10-16T03:05:00.000Z
 | 2026-10-16T02:50:00.000Z | 2440.66 | 2440.99 | 2438.19 | 2439.82 | 455.3632 | 201.2928 | yes |
 | 2026-10-16T02:55:00.000Z | 2439.82 | 2442.15 | 2438.88 | 2439.55 | 801.5344 | 345.5187 | yes |
 | 2026-10-16T03:00:00.000Z | 2439.55 | 2441.48 | 2438.19 | 2441.42 | 863.0861 | 391.1218 | yes |
-| 2026-10-16T03:05:00.000Z | 2441.42 | 2442.78 | 2441.4 | 2442.78 | 129.9421 | 96.2231 | no |
+| 2026-10-16T03:05:00.000Z | 2441.42 | 2442.78 | 2441.4 | 2442.5 | 665.8372 | 521.8746 | no |
 
 ## 15m — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=160&interval=15m&endTime=1792119968803
-Captured: 2026-10-16T03:06:09.508Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=160&interval=15m&endTime=1792119992751
+Captured: 2026-10-16T03:06:33.512Z
 Last completed close: 2026-10-16T03:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -195,11 +195,11 @@ Last completed close: 2026-10-16T03:00:00.000Z
 | 2026-10-16T02:15:00.000Z | 2438.78 | 2442.28 | 2436.63 | 2438.51 | 1146.4785 | 525.7309 | yes |
 | 2026-10-16T02:30:00.000Z | 2438.51 | 2446.17 | 2437.06 | 2444.7 | 1100.3221 | 728.404 | yes |
 | 2026-10-16T02:45:00.000Z | 2444.7 | 2444.87 | 2438.19 | 2439.55 | 1503.2706 | 638.6822 | yes |
-| 2026-10-16T03:00:00.000Z | 2439.55 | 2442.78 | 2438.19 | 2442.78 | 993.0282 | 487.3449 | no |
+| 2026-10-16T03:00:00.000Z | 2439.55 | 2442.78 | 2438.19 | 2442.5 | 1528.9233 | 912.9964 | no |
 
 ## 1h — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=240&interval=1h&endTime=1792119969508
-Captured: 2026-10-16T03:06:10.071Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=240&interval=1h&endTime=1792119993512
+Captured: 2026-10-16T03:06:34.049Z
 Last completed close: 2026-10-16T03:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -258,11 +258,11 @@ Last completed close: 2026-10-16T03:00:00.000Z
 | 2026-10-16T00:00:00.000Z | 2442.07 | 2447.5 | 2438.18 | 2441.44 | 6100.2116 | 3112.7761 | yes |
 | 2026-10-16T01:00:00.000Z | 2441.44 | 2446.98 | 2430.08 | 2433.1 | 5586.2948 | 2577.3609 | yes |
 | 2026-10-16T02:00:00.000Z | 2433.1 | 2446.17 | 2432.92 | 2439.55 | 5083.2011 | 2661.2406 | yes |
-| 2026-10-16T03:00:00.000Z | 2439.55 | 2442.78 | 2438.19 | 2442.78 | 993.0282 | 487.3449 | no |
+| 2026-10-16T03:00:00.000Z | 2439.55 | 2442.78 | 2438.19 | 2442.53 | 1531.233 | 915.3061 | no |
 
 ## 4h — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=120&interval=4h&endTime=1792119970071
-Captured: 2026-10-16T03:06:10.672Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=120&interval=4h&endTime=1792119994049
+Captured: 2026-10-16T03:06:34.562Z
 Last completed close: 2026-10-16T00:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -321,11 +321,11 @@ Last completed close: 2026-10-16T00:00:00.000Z
 | 2026-10-15T12:00:00.000Z | 2363.32 | 2448.61 | 2324.22 | 2440.64 | 119954.2312 | 65426.2526 | yes |
 | 2026-10-15T16:00:00.000Z | 2440.64 | 2462.49 | 2423.16 | 2452.9 | 43773.4973 | 25342.9132 | yes |
 | 2026-10-15T20:00:00.000Z | 2452.91 | 2467.05 | 2439.22 | 2442.08 | 23861.2533 | 10721.2966 | yes |
-| 2026-10-16T00:00:00.000Z | 2442.07 | 2447.5 | 2430.08 | 2442.71 | 17773.2213 | 8843.874 | no |
+| 2026-10-16T00:00:00.000Z | 2442.07 | 2447.5 | 2430.08 | 2442.53 | 18300.9405 | 9266.6837 | no |
 
 ## 1d — OK
-Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=80&interval=1d&endTime=1792119970672
-Captured: 2026-10-16T03:06:11.118Z
+Source: https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=80&interval=1d&endTime=1792119994562
+Captured: 2026-10-16T03:06:34.966Z
 Last completed close: 2026-10-16T00:00:00.000Z
 
 | Open UTC | O | H | L | C | Volume | Taker buy | Closed? |
@@ -384,6 +384,6 @@ Last completed close: 2026-10-16T00:00:00.000Z
 | 2026-10-13T00:00:00.000Z | 2447.16 | 2538.52 | 2409.09 | 2497.95 | 261690.4747 | 131712.6384 | yes |
 | 2026-10-14T00:00:00.000Z | 2497.94 | 2530.44 | 2403.69 | 2421.6 | 324253.7648 | 140839.7887 | yes |
 | 2026-10-15T00:00:00.000Z | 2421.61 | 2467.05 | 2318 | 2442.08 | 446112.7107 | 208721.5268 | yes |
-| 2026-10-16T00:00:00.000Z | 2442.07 | 2447.5 | 2430.08 | 2442.6 | 17774.0172 | 8843.874 | no |
+| 2026-10-16T00:00:00.000Z | 2442.07 | 2447.5 | 2430.08 | 2442.52 | 18302.4507 | 9266.6837 | no |
 
 Attempts: []

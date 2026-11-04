@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "captured_at_utc": "2026-11-03T23:13:35.204Z",
-  "captured_at_israel": "2026-11-04T01:13:35+02:00",
-  "generated_at_utc": "2026-11-03T23:13:39.280Z",
+  "captured_at_utc": "2026-11-04T02:39:59.572Z",
+  "captured_at_israel": "2026-11-04T04:39:59+02:00",
+  "generated_at_utc": "2026-11-04T02:40:04.291Z",
   "snapshot_max_age_seconds": 120,
   "purpose": "public candle data, not trading signals",
   "assets": {
@@ -13,9 +13,9 @@
       "market": "Binance Spot",
       "source_url": "https://data-api.binance.vision",
       "pair_source_url": "https://data-api.binance.vision/api/v3/exchangeInfo?symbol=BTCUSDT",
-      "capture_time_utc": "2026-11-03T23:13:39.279Z",
-      "collection_started_at_utc": "2026-11-03T23:13:35.204Z",
-      "expires_at_utc": "2026-11-03T23:15:35.204Z",
+      "capture_time_utc": "2026-11-04T02:40:04.290Z",
+      "collection_started_at_utc": "2026-11-04T02:39:59.572Z",
+      "expires_at_utc": "2026-11-04T02:41:59.572Z",
       "available_fields": [
         "open_ms",
         "open_utc",
@@ -37,13 +37,13 @@
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=120&interval=1m&endTime=1793747615647",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=120&interval=1m&endTime=1793747615647",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=120&interval=1m&endTime=1793760000091",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=120&interval=1m&endTime=1793760000091",
           "symbol": "BTCUSDT",
           "interval": "1m",
-          "observation_started_at_utc": "2026-11-03T23:13:35.647Z",
-          "captured_at_utc": "2026-11-03T23:13:36.183Z",
-          "expires_at_utc": "2026-11-03T23:15:35.647Z",
+          "observation_started_at_utc": "2026-11-04T02:40:00.091Z",
+          "captured_at_utc": "2026-11-04T02:40:00.679Z",
+          "expires_at_utc": "2026-11-04T02:42:00.091Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -59,20 +59,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:13:00.000Z",
-          "closed_candles": 119
+          "last_completed_close_utc": "2026-11-04T02:39:00.000Z",
+          "closed_candles": 118
         },
         "5m": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=160&interval=5m&endTime=1793747616183",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=160&interval=5m&endTime=1793747616183",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=160&interval=5m&endTime=1793760000679",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=160&interval=5m&endTime=1793760000679",
           "symbol": "BTCUSDT",
           "interval": "5m",
-          "observation_started_at_utc": "2026-11-03T23:13:36.183Z",
-          "captured_at_utc": "2026-11-03T23:13:36.955Z",
-          "expires_at_utc": "2026-11-03T23:15:36.183Z",
+          "observation_started_at_utc": "2026-11-04T02:40:00.679Z",
+          "captured_at_utc": "2026-11-04T02:40:01.580Z",
+          "expires_at_utc": "2026-11-04T02:42:00.679Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -88,20 +88,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:10:00.000Z",
-          "closed_candles": 159
+          "last_completed_close_utc": "2026-11-04T02:35:00.000Z",
+          "closed_candles": 158
         },
         "15m": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=160&interval=15m&endTime=1793747616955",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=160&interval=15m&endTime=1793747616955",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=160&interval=15m&endTime=1793760001580",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=160&interval=15m&endTime=1793760001580",
           "symbol": "BTCUSDT",
           "interval": "15m",
-          "observation_started_at_utc": "2026-11-03T23:13:36.955Z",
-          "captured_at_utc": "2026-11-03T23:13:37.493Z",
-          "expires_at_utc": "2026-11-03T23:15:36.955Z",
+          "observation_started_at_utc": "2026-11-04T02:40:01.580Z",
+          "captured_at_utc": "2026-11-04T02:40:02.561Z",
+          "expires_at_utc": "2026-11-04T02:42:01.580Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -117,20 +117,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T02:30:00.000Z",
           "closed_candles": 159
         },
         "1h": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=240&interval=1h&endTime=1793747617493",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=240&interval=1h&endTime=1793747617493",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=240&interval=1h&endTime=1793760002561",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=240&interval=1h&endTime=1793760002561",
           "symbol": "BTCUSDT",
           "interval": "1h",
-          "observation_started_at_utc": "2026-11-03T23:13:37.493Z",
-          "captured_at_utc": "2026-11-03T23:13:38.028Z",
-          "expires_at_utc": "2026-11-03T23:15:37.493Z",
+          "observation_started_at_utc": "2026-11-04T02:40:02.561Z",
+          "captured_at_utc": "2026-11-04T02:40:03.287Z",
+          "expires_at_utc": "2026-11-04T02:42:02.561Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -146,20 +146,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T02:00:00.000Z",
           "closed_candles": 239
         },
         "4h": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=120&interval=4h&endTime=1793747618028",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=120&interval=4h&endTime=1793747618028",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=120&interval=4h&endTime=1793760003287",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=120&interval=4h&endTime=1793760003287",
           "symbol": "BTCUSDT",
           "interval": "4h",
-          "observation_started_at_utc": "2026-11-03T23:13:38.028Z",
-          "captured_at_utc": "2026-11-03T23:13:38.560Z",
-          "expires_at_utc": "2026-11-03T23:15:38.028Z",
+          "observation_started_at_utc": "2026-11-04T02:40:03.287Z",
+          "captured_at_utc": "2026-11-04T02:40:03.844Z",
+          "expires_at_utc": "2026-11-04T02:42:03.287Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -175,20 +175,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T20:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T00:00:00.000Z",
           "closed_candles": 119
         },
         "1d": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=80&interval=1d&endTime=1793747618560",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=80&interval=1d&endTime=1793747618560",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=80&interval=1d&endTime=1793760003844",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&limit=80&interval=1d&endTime=1793760003844",
           "symbol": "BTCUSDT",
           "interval": "1d",
-          "observation_started_at_utc": "2026-11-03T23:13:38.560Z",
-          "captured_at_utc": "2026-11-03T23:13:39.279Z",
-          "expires_at_utc": "2026-11-03T23:15:38.560Z",
+          "observation_started_at_utc": "2026-11-04T02:40:03.844Z",
+          "captured_at_utc": "2026-11-04T02:40:04.290Z",
+          "expires_at_utc": "2026-11-04T02:42:03.844Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -204,7 +204,7 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T00:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T00:00:00.000Z",
           "closed_candles": 79
         }
       }
@@ -216,9 +216,9 @@
       "market": "Binance Spot",
       "source_url": "https://data-api.binance.vision",
       "pair_source_url": "https://data-api.binance.vision/api/v3/exchangeInfo?symbol=ETHUSDT",
-      "capture_time_utc": "2026-11-03T23:13:38.954Z",
-      "collection_started_at_utc": "2026-11-03T23:13:35.205Z",
-      "expires_at_utc": "2026-11-03T23:15:35.205Z",
+      "capture_time_utc": "2026-11-04T02:40:04.231Z",
+      "collection_started_at_utc": "2026-11-04T02:39:59.573Z",
+      "expires_at_utc": "2026-11-04T02:41:59.573Z",
       "available_fields": [
         "open_ms",
         "open_utc",
@@ -240,13 +240,13 @@
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=120&interval=1m&endTime=1793747615649",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=120&interval=1m&endTime=1793747615649",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=120&interval=1m&endTime=1793760000086",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=120&interval=1m&endTime=1793760000086",
           "symbol": "ETHUSDT",
           "interval": "1m",
-          "observation_started_at_utc": "2026-11-03T23:13:35.649Z",
-          "captured_at_utc": "2026-11-03T23:13:36.181Z",
-          "expires_at_utc": "2026-11-03T23:15:35.649Z",
+          "observation_started_at_utc": "2026-11-04T02:40:00.086Z",
+          "captured_at_utc": "2026-11-04T02:40:00.667Z",
+          "expires_at_utc": "2026-11-04T02:42:00.086Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -262,20 +262,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:13:00.000Z",
+          "last_completed_close_utc": "2026-11-04T02:39:00.000Z",
           "closed_candles": 119
         },
         "5m": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=160&interval=5m&endTime=1793747616181",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=160&interval=5m&endTime=1793747616181",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=160&interval=5m&endTime=1793760000667",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=160&interval=5m&endTime=1793760000667",
           "symbol": "ETHUSDT",
           "interval": "5m",
-          "observation_started_at_utc": "2026-11-03T23:13:36.181Z",
-          "captured_at_utc": "2026-11-03T23:13:36.951Z",
-          "expires_at_utc": "2026-11-03T23:15:36.181Z",
+          "observation_started_at_utc": "2026-11-04T02:40:00.667Z",
+          "captured_at_utc": "2026-11-04T02:40:01.563Z",
+          "expires_at_utc": "2026-11-04T02:42:00.667Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -291,20 +291,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:10:00.000Z",
-          "closed_candles": 159
+          "last_completed_close_utc": "2026-11-04T02:35:00.000Z",
+          "closed_candles": 158
         },
         "15m": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=160&interval=15m&endTime=1793747616951",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=160&interval=15m&endTime=1793747616951",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=160&interval=15m&endTime=1793760001563",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=160&interval=15m&endTime=1793760001563",
           "symbol": "ETHUSDT",
           "interval": "15m",
-          "observation_started_at_utc": "2026-11-03T23:13:36.951Z",
-          "captured_at_utc": "2026-11-03T23:13:37.491Z",
-          "expires_at_utc": "2026-11-03T23:15:36.951Z",
+          "observation_started_at_utc": "2026-11-04T02:40:01.563Z",
+          "captured_at_utc": "2026-11-04T02:40:02.503Z",
+          "expires_at_utc": "2026-11-04T02:42:01.563Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -320,20 +320,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T02:30:00.000Z",
           "closed_candles": 159
         },
         "1h": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=240&interval=1h&endTime=1793747617491",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=240&interval=1h&endTime=1793747617491",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=240&interval=1h&endTime=1793760002503",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=240&interval=1h&endTime=1793760002503",
           "symbol": "ETHUSDT",
           "interval": "1h",
-          "observation_started_at_utc": "2026-11-03T23:13:37.491Z",
-          "captured_at_utc": "2026-11-03T23:13:38.037Z",
-          "expires_at_utc": "2026-11-03T23:15:37.491Z",
+          "observation_started_at_utc": "2026-11-04T02:40:02.503Z",
+          "captured_at_utc": "2026-11-04T02:40:03.229Z",
+          "expires_at_utc": "2026-11-04T02:42:02.503Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -349,20 +349,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T02:00:00.000Z",
           "closed_candles": 239
         },
         "4h": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=120&interval=4h&endTime=1793747618037",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=120&interval=4h&endTime=1793747618037",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=120&interval=4h&endTime=1793760003229",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=120&interval=4h&endTime=1793760003229",
           "symbol": "ETHUSDT",
           "interval": "4h",
-          "observation_started_at_utc": "2026-11-03T23:13:38.037Z",
-          "captured_at_utc": "2026-11-03T23:13:38.556Z",
-          "expires_at_utc": "2026-11-03T23:15:38.037Z",
+          "observation_started_at_utc": "2026-11-04T02:40:03.229Z",
+          "captured_at_utc": "2026-11-04T02:40:03.784Z",
+          "expires_at_utc": "2026-11-04T02:42:03.229Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -378,20 +378,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T20:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T00:00:00.000Z",
           "closed_candles": 119
         },
         "1d": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=80&interval=1d&endTime=1793747618557",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=80&interval=1d&endTime=1793747618557",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=80&interval=1d&endTime=1793760003784",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&limit=80&interval=1d&endTime=1793760003784",
           "symbol": "ETHUSDT",
           "interval": "1d",
-          "observation_started_at_utc": "2026-11-03T23:13:38.557Z",
-          "captured_at_utc": "2026-11-03T23:13:38.954Z",
-          "expires_at_utc": "2026-11-03T23:15:38.557Z",
+          "observation_started_at_utc": "2026-11-04T02:40:03.784Z",
+          "captured_at_utc": "2026-11-04T02:40:04.231Z",
+          "expires_at_utc": "2026-11-04T02:42:03.784Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -407,7 +407,7 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T00:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T00:00:00.000Z",
           "closed_candles": 79
         }
       }
@@ -419,9 +419,9 @@
       "market": "Binance Spot",
       "source_url": "https://data-api.binance.vision",
       "pair_source_url": "https://data-api.binance.vision/api/v3/exchangeInfo?symbol=SOLUSDT",
-      "capture_time_utc": "2026-11-03T23:13:39.279Z",
-      "collection_started_at_utc": "2026-11-03T23:13:35.205Z",
-      "expires_at_utc": "2026-11-03T23:15:35.205Z",
+      "capture_time_utc": "2026-11-04T02:40:04.249Z",
+      "collection_started_at_utc": "2026-11-04T02:39:59.573Z",
+      "expires_at_utc": "2026-11-04T02:41:59.573Z",
       "available_fields": [
         "open_ms",
         "open_utc",
@@ -443,13 +443,13 @@
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=120&interval=1m&endTime=1793747615645",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=120&interval=1m&endTime=1793747615645",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=120&interval=1m&endTime=1793760000091",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=120&interval=1m&endTime=1793760000091",
           "symbol": "SOLUSDT",
           "interval": "1m",
-          "observation_started_at_utc": "2026-11-03T23:13:35.645Z",
-          "captured_at_utc": "2026-11-03T23:13:36.185Z",
-          "expires_at_utc": "2026-11-03T23:15:35.645Z",
+          "observation_started_at_utc": "2026-11-04T02:40:00.091Z",
+          "captured_at_utc": "2026-11-04T02:40:00.683Z",
+          "expires_at_utc": "2026-11-04T02:42:00.091Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -465,20 +465,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:13:00.000Z",
+          "last_completed_close_utc": "2026-11-04T02:39:00.000Z",
           "closed_candles": 119
         },
         "5m": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=160&interval=5m&endTime=1793747616185",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=160&interval=5m&endTime=1793747616185",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=160&interval=5m&endTime=1793760000683",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=160&interval=5m&endTime=1793760000683",
           "symbol": "SOLUSDT",
           "interval": "5m",
-          "observation_started_at_utc": "2026-11-03T23:13:36.185Z",
-          "captured_at_utc": "2026-11-03T23:13:36.954Z",
-          "expires_at_utc": "2026-11-03T23:15:36.185Z",
+          "observation_started_at_utc": "2026-11-04T02:40:00.683Z",
+          "captured_at_utc": "2026-11-04T02:40:01.575Z",
+          "expires_at_utc": "2026-11-04T02:42:00.683Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -494,20 +494,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:10:00.000Z",
-          "closed_candles": 159
+          "last_completed_close_utc": "2026-11-04T02:35:00.000Z",
+          "closed_candles": 158
         },
         "15m": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=160&interval=15m&endTime=1793747616954",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=160&interval=15m&endTime=1793747616954",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=160&interval=15m&endTime=1793760001575",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=160&interval=15m&endTime=1793760001575",
           "symbol": "SOLUSDT",
           "interval": "15m",
-          "observation_started_at_utc": "2026-11-03T23:13:36.954Z",
-          "captured_at_utc": "2026-11-03T23:13:37.498Z",
-          "expires_at_utc": "2026-11-03T23:15:36.954Z",
+          "observation_started_at_utc": "2026-11-04T02:40:01.575Z",
+          "captured_at_utc": "2026-11-04T02:40:02.549Z",
+          "expires_at_utc": "2026-11-04T02:42:01.575Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -523,20 +523,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T02:30:00.000Z",
           "closed_candles": 159
         },
         "1h": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=240&interval=1h&endTime=1793747617498",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=240&interval=1h&endTime=1793747617498",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=240&interval=1h&endTime=1793760002549",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=240&interval=1h&endTime=1793760002549",
           "symbol": "SOLUSDT",
           "interval": "1h",
-          "observation_started_at_utc": "2026-11-03T23:13:37.498Z",
-          "captured_at_utc": "2026-11-03T23:13:38.034Z",
-          "expires_at_utc": "2026-11-03T23:15:37.498Z",
+          "observation_started_at_utc": "2026-11-04T02:40:02.549Z",
+          "captured_at_utc": "2026-11-04T02:40:03.246Z",
+          "expires_at_utc": "2026-11-04T02:42:02.549Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -552,20 +552,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T02:00:00.000Z",
           "closed_candles": 239
         },
         "4h": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=120&interval=4h&endTime=1793747618034",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=120&interval=4h&endTime=1793747618034",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=120&interval=4h&endTime=1793760003246",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=120&interval=4h&endTime=1793760003246",
           "symbol": "SOLUSDT",
           "interval": "4h",
-          "observation_started_at_utc": "2026-11-03T23:13:38.034Z",
-          "captured_at_utc": "2026-11-03T23:13:38.559Z",
-          "expires_at_utc": "2026-11-03T23:15:38.034Z",
+          "observation_started_at_utc": "2026-11-04T02:40:03.246Z",
+          "captured_at_utc": "2026-11-04T02:40:03.805Z",
+          "expires_at_utc": "2026-11-04T02:42:03.246Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -581,20 +581,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T20:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T00:00:00.000Z",
           "closed_candles": 119
         },
         "1d": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=80&interval=1d&endTime=1793747618559",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=80&interval=1d&endTime=1793747618559",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=80&interval=1d&endTime=1793760003805",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&limit=80&interval=1d&endTime=1793760003805",
           "symbol": "SOLUSDT",
           "interval": "1d",
-          "observation_started_at_utc": "2026-11-03T23:13:38.559Z",
-          "captured_at_utc": "2026-11-03T23:13:39.279Z",
-          "expires_at_utc": "2026-11-03T23:15:38.559Z",
+          "observation_started_at_utc": "2026-11-04T02:40:03.805Z",
+          "captured_at_utc": "2026-11-04T02:40:04.249Z",
+          "expires_at_utc": "2026-11-04T02:42:03.805Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -610,7 +610,7 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T00:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T00:00:00.000Z",
           "closed_candles": 79
         }
       }
@@ -622,9 +622,9 @@
       "market": "Binance Spot",
       "source_url": "https://data-api.binance.vision",
       "pair_source_url": "https://data-api.binance.vision/api/v3/exchangeInfo?symbol=XRPUSDT",
-      "capture_time_utc": "2026-11-03T23:13:38.925Z",
-      "collection_started_at_utc": "2026-11-03T23:13:35.206Z",
-      "expires_at_utc": "2026-11-03T23:15:35.206Z",
+      "capture_time_utc": "2026-11-04T02:40:04.236Z",
+      "collection_started_at_utc": "2026-11-04T02:39:59.574Z",
+      "expires_at_utc": "2026-11-04T02:41:59.574Z",
       "available_fields": [
         "open_ms",
         "open_utc",
@@ -646,13 +646,13 @@
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=120&interval=1m&endTime=1793747615648",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=120&interval=1m&endTime=1793747615648",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=120&interval=1m&endTime=1793760000091",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=120&interval=1m&endTime=1793760000091",
           "symbol": "XRPUSDT",
           "interval": "1m",
-          "observation_started_at_utc": "2026-11-03T23:13:35.648Z",
-          "captured_at_utc": "2026-11-03T23:13:36.182Z",
-          "expires_at_utc": "2026-11-03T23:15:35.648Z",
+          "observation_started_at_utc": "2026-11-04T02:40:00.091Z",
+          "captured_at_utc": "2026-11-04T02:40:00.672Z",
+          "expires_at_utc": "2026-11-04T02:42:00.091Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -668,20 +668,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:13:00.000Z",
+          "last_completed_close_utc": "2026-11-04T02:39:00.000Z",
           "closed_candles": 119
         },
         "5m": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=160&interval=5m&endTime=1793747616182",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=160&interval=5m&endTime=1793747616182",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=160&interval=5m&endTime=1793760000672",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=160&interval=5m&endTime=1793760000672",
           "symbol": "XRPUSDT",
           "interval": "5m",
-          "observation_started_at_utc": "2026-11-03T23:13:36.182Z",
-          "captured_at_utc": "2026-11-03T23:13:36.958Z",
-          "expires_at_utc": "2026-11-03T23:15:36.182Z",
+          "observation_started_at_utc": "2026-11-04T02:40:00.672Z",
+          "captured_at_utc": "2026-11-04T02:40:01.581Z",
+          "expires_at_utc": "2026-11-04T02:42:00.672Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -697,20 +697,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:10:00.000Z",
-          "closed_candles": 159
+          "last_completed_close_utc": "2026-11-04T02:35:00.000Z",
+          "closed_candles": 158
         },
         "15m": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=160&interval=15m&endTime=1793747616958",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=160&interval=15m&endTime=1793747616958",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=160&interval=15m&endTime=1793760001581",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=160&interval=15m&endTime=1793760001581",
           "symbol": "XRPUSDT",
           "interval": "15m",
-          "observation_started_at_utc": "2026-11-03T23:13:36.958Z",
-          "captured_at_utc": "2026-11-03T23:13:37.490Z",
-          "expires_at_utc": "2026-11-03T23:15:36.958Z",
+          "observation_started_at_utc": "2026-11-04T02:40:01.581Z",
+          "captured_at_utc": "2026-11-04T02:40:02.540Z",
+          "expires_at_utc": "2026-11-04T02:42:01.581Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -726,20 +726,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T02:30:00.000Z",
           "closed_candles": 159
         },
         "1h": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=240&interval=1h&endTime=1793747617490",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=240&interval=1h&endTime=1793747617490",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=240&interval=1h&endTime=1793760002540",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=240&interval=1h&endTime=1793760002540",
           "symbol": "XRPUSDT",
           "interval": "1h",
-          "observation_started_at_utc": "2026-11-03T23:13:37.490Z",
-          "captured_at_utc": "2026-11-03T23:13:37.993Z",
-          "expires_at_utc": "2026-11-03T23:15:37.490Z",
+          "observation_started_at_utc": "2026-11-04T02:40:02.540Z",
+          "captured_at_utc": "2026-11-04T02:40:03.242Z",
+          "expires_at_utc": "2026-11-04T02:42:02.540Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -755,20 +755,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T02:00:00.000Z",
           "closed_candles": 239
         },
         "4h": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=120&interval=4h&endTime=1793747617993",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=120&interval=4h&endTime=1793747617993",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=120&interval=4h&endTime=1793760003242",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=120&interval=4h&endTime=1793760003242",
           "symbol": "XRPUSDT",
           "interval": "4h",
-          "observation_started_at_utc": "2026-11-03T23:13:37.993Z",
-          "captured_at_utc": "2026-11-03T23:13:38.521Z",
-          "expires_at_utc": "2026-11-03T23:15:37.993Z",
+          "observation_started_at_utc": "2026-11-04T02:40:03.242Z",
+          "captured_at_utc": "2026-11-04T02:40:03.792Z",
+          "expires_at_utc": "2026-11-04T02:42:03.242Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -784,20 +784,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T20:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T00:00:00.000Z",
           "closed_candles": 119
         },
         "1d": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=80&interval=1d&endTime=1793747618521",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=80&interval=1d&endTime=1793747618521",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=80&interval=1d&endTime=1793760003792",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&limit=80&interval=1d&endTime=1793760003792",
           "symbol": "XRPUSDT",
           "interval": "1d",
-          "observation_started_at_utc": "2026-11-03T23:13:38.521Z",
-          "captured_at_utc": "2026-11-03T23:13:38.925Z",
-          "expires_at_utc": "2026-11-03T23:15:38.521Z",
+          "observation_started_at_utc": "2026-11-04T02:40:03.792Z",
+          "captured_at_utc": "2026-11-04T02:40:04.236Z",
+          "expires_at_utc": "2026-11-04T02:42:03.792Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -813,7 +813,7 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T00:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T00:00:00.000Z",
           "closed_candles": 79
         }
       }
@@ -825,9 +825,9 @@
       "market": "Binance Spot",
       "source_url": "https://data-api.binance.vision",
       "pair_source_url": "https://data-api.binance.vision/api/v3/exchangeInfo?symbol=DOGEUSDT",
-      "capture_time_utc": "2026-11-03T23:13:38.955Z",
-      "collection_started_at_utc": "2026-11-03T23:13:35.206Z",
-      "expires_at_utc": "2026-11-03T23:15:35.206Z",
+      "capture_time_utc": "2026-11-04T02:40:04.257Z",
+      "collection_started_at_utc": "2026-11-04T02:39:59.574Z",
+      "expires_at_utc": "2026-11-04T02:41:59.574Z",
       "available_fields": [
         "open_ms",
         "open_utc",
@@ -849,13 +849,13 @@
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=120&interval=1m&endTime=1793747615646",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=120&interval=1m&endTime=1793747615646",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=120&interval=1m&endTime=1793760000086",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=120&interval=1m&endTime=1793760000086",
           "symbol": "DOGEUSDT",
           "interval": "1m",
-          "observation_started_at_utc": "2026-11-03T23:13:35.646Z",
-          "captured_at_utc": "2026-11-03T23:13:36.186Z",
-          "expires_at_utc": "2026-11-03T23:15:35.646Z",
+          "observation_started_at_utc": "2026-11-04T02:40:00.086Z",
+          "captured_at_utc": "2026-11-04T02:40:00.677Z",
+          "expires_at_utc": "2026-11-04T02:42:00.086Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -871,20 +871,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:13:00.000Z",
-          "closed_candles": 119
+          "last_completed_close_utc": "2026-11-04T02:39:00.000Z",
+          "closed_candles": 118
         },
         "5m": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=160&interval=5m&endTime=1793747616186",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=160&interval=5m&endTime=1793747616186",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=160&interval=5m&endTime=1793760000677",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=160&interval=5m&endTime=1793760000677",
           "symbol": "DOGEUSDT",
           "interval": "5m",
-          "observation_started_at_utc": "2026-11-03T23:13:36.186Z",
-          "captured_at_utc": "2026-11-03T23:13:36.952Z",
-          "expires_at_utc": "2026-11-03T23:15:36.186Z",
+          "observation_started_at_utc": "2026-11-04T02:40:00.677Z",
+          "captured_at_utc": "2026-11-04T02:40:01.572Z",
+          "expires_at_utc": "2026-11-04T02:42:00.677Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -900,20 +900,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:10:00.000Z",
-          "closed_candles": 159
+          "last_completed_close_utc": "2026-11-04T02:35:00.000Z",
+          "closed_candles": 158
         },
         "15m": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=160&interval=15m&endTime=1793747616952",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=160&interval=15m&endTime=1793747616952",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=160&interval=15m&endTime=1793760001572",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=160&interval=15m&endTime=1793760001572",
           "symbol": "DOGEUSDT",
           "interval": "15m",
-          "observation_started_at_utc": "2026-11-03T23:13:36.952Z",
-          "captured_at_utc": "2026-11-03T23:13:37.496Z",
-          "expires_at_utc": "2026-11-03T23:15:36.952Z",
+          "observation_started_at_utc": "2026-11-04T02:40:01.572Z",
+          "captured_at_utc": "2026-11-04T02:40:02.500Z",
+          "expires_at_utc": "2026-11-04T02:42:01.572Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -929,20 +929,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T02:30:00.000Z",
           "closed_candles": 159
         },
         "1h": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=240&interval=1h&endTime=1793747617496",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=240&interval=1h&endTime=1793747617496",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=240&interval=1h&endTime=1793760002500",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=240&interval=1h&endTime=1793760002500",
           "symbol": "DOGEUSDT",
           "interval": "1h",
-          "observation_started_at_utc": "2026-11-03T23:13:37.496Z",
-          "captured_at_utc": "2026-11-03T23:13:38.026Z",
-          "expires_at_utc": "2026-11-03T23:15:37.496Z",
+          "observation_started_at_utc": "2026-11-04T02:40:02.500Z",
+          "captured_at_utc": "2026-11-04T02:40:03.259Z",
+          "expires_at_utc": "2026-11-04T02:42:02.500Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -958,20 +958,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T02:00:00.000Z",
           "closed_candles": 239
         },
         "4h": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=120&interval=4h&endTime=1793747618026",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=120&interval=4h&endTime=1793747618026",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=120&interval=4h&endTime=1793760003259",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=120&interval=4h&endTime=1793760003259",
           "symbol": "DOGEUSDT",
           "interval": "4h",
-          "observation_started_at_utc": "2026-11-03T23:13:38.026Z",
-          "captured_at_utc": "2026-11-03T23:13:38.555Z",
-          "expires_at_utc": "2026-11-03T23:15:38.026Z",
+          "observation_started_at_utc": "2026-11-04T02:40:03.259Z",
+          "captured_at_utc": "2026-11-04T02:40:03.812Z",
+          "expires_at_utc": "2026-11-04T02:42:03.259Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -987,20 +987,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T20:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T00:00:00.000Z",
           "closed_candles": 119
         },
         "1d": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=80&interval=1d&endTime=1793747618555",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=80&interval=1d&endTime=1793747618555",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=80&interval=1d&endTime=1793760003812",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=DOGEUSDT&limit=80&interval=1d&endTime=1793760003812",
           "symbol": "DOGEUSDT",
           "interval": "1d",
-          "observation_started_at_utc": "2026-11-03T23:13:38.555Z",
-          "captured_at_utc": "2026-11-03T23:13:38.955Z",
-          "expires_at_utc": "2026-11-03T23:15:38.555Z",
+          "observation_started_at_utc": "2026-11-04T02:40:03.812Z",
+          "captured_at_utc": "2026-11-04T02:40:04.257Z",
+          "expires_at_utc": "2026-11-04T02:42:03.812Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -1016,7 +1016,7 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T00:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T00:00:00.000Z",
           "closed_candles": 79
         }
       }
@@ -1028,9 +1028,9 @@
       "market": "Binance Spot",
       "source_url": "https://data-api.binance.vision",
       "pair_source_url": "https://data-api.binance.vision/api/v3/exchangeInfo?symbol=BNBUSDT",
-      "capture_time_utc": "2026-11-03T23:13:38.961Z",
-      "collection_started_at_utc": "2026-11-03T23:13:35.208Z",
-      "expires_at_utc": "2026-11-03T23:15:35.208Z",
+      "capture_time_utc": "2026-11-04T02:40:04.249Z",
+      "collection_started_at_utc": "2026-11-04T02:39:59.581Z",
+      "expires_at_utc": "2026-11-04T02:41:59.581Z",
       "available_fields": [
         "open_ms",
         "open_utc",
@@ -1052,13 +1052,13 @@
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=120&interval=1m&endTime=1793747615646",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=120&interval=1m&endTime=1793747615646",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=120&interval=1m&endTime=1793760000087",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=120&interval=1m&endTime=1793760000087",
           "symbol": "BNBUSDT",
           "interval": "1m",
-          "observation_started_at_utc": "2026-11-03T23:13:35.646Z",
-          "captured_at_utc": "2026-11-03T23:13:36.187Z",
-          "expires_at_utc": "2026-11-03T23:15:35.646Z",
+          "observation_started_at_utc": "2026-11-04T02:40:00.087Z",
+          "captured_at_utc": "2026-11-04T02:40:00.669Z",
+          "expires_at_utc": "2026-11-04T02:42:00.087Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -1074,20 +1074,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:13:00.000Z",
+          "last_completed_close_utc": "2026-11-04T02:39:00.000Z",
           "closed_candles": 119
         },
         "5m": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=160&interval=5m&endTime=1793747616187",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=160&interval=5m&endTime=1793747616187",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=160&interval=5m&endTime=1793760000669",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=160&interval=5m&endTime=1793760000669",
           "symbol": "BNBUSDT",
           "interval": "5m",
-          "observation_started_at_utc": "2026-11-03T23:13:36.187Z",
-          "captured_at_utc": "2026-11-03T23:13:36.957Z",
-          "expires_at_utc": "2026-11-03T23:15:36.187Z",
+          "observation_started_at_utc": "2026-11-04T02:40:00.669Z",
+          "captured_at_utc": "2026-11-04T02:40:01.571Z",
+          "expires_at_utc": "2026-11-04T02:42:00.669Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -1103,20 +1103,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:10:00.000Z",
-          "closed_candles": 159
+          "last_completed_close_utc": "2026-11-04T02:35:00.000Z",
+          "closed_candles": 158
         },
         "15m": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=160&interval=15m&endTime=1793747616957",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=160&interval=15m&endTime=1793747616957",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=160&interval=15m&endTime=1793760001571",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=160&interval=15m&endTime=1793760001571",
           "symbol": "BNBUSDT",
           "interval": "15m",
-          "observation_started_at_utc": "2026-11-03T23:13:36.957Z",
-          "captured_at_utc": "2026-11-03T23:13:37.495Z",
-          "expires_at_utc": "2026-11-03T23:15:36.957Z",
+          "observation_started_at_utc": "2026-11-04T02:40:01.571Z",
+          "captured_at_utc": "2026-11-04T02:40:02.525Z",
+          "expires_at_utc": "2026-11-04T02:42:01.571Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -1132,20 +1132,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T02:30:00.000Z",
           "closed_candles": 159
         },
         "1h": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=240&interval=1h&endTime=1793747617495",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=240&interval=1h&endTime=1793747617495",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=240&interval=1h&endTime=1793760002525",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=240&interval=1h&endTime=1793760002525",
           "symbol": "BNBUSDT",
           "interval": "1h",
-          "observation_started_at_utc": "2026-11-03T23:13:37.495Z",
-          "captured_at_utc": "2026-11-03T23:13:38.035Z",
-          "expires_at_utc": "2026-11-03T23:15:37.495Z",
+          "observation_started_at_utc": "2026-11-04T02:40:02.525Z",
+          "captured_at_utc": "2026-11-04T02:40:03.252Z",
+          "expires_at_utc": "2026-11-04T02:42:02.525Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -1161,20 +1161,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T23:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T02:00:00.000Z",
           "closed_candles": 239
         },
         "4h": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=120&interval=4h&endTime=1793747618035",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=120&interval=4h&endTime=1793747618035",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=120&interval=4h&endTime=1793760003252",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=120&interval=4h&endTime=1793760003252",
           "symbol": "BNBUSDT",
           "interval": "4h",
-          "observation_started_at_utc": "2026-11-03T23:13:38.035Z",
-          "captured_at_utc": "2026-11-03T23:13:38.558Z",
-          "expires_at_utc": "2026-11-03T23:15:38.035Z",
+          "observation_started_at_utc": "2026-11-04T02:40:03.252Z",
+          "captured_at_utc": "2026-11-04T02:40:03.806Z",
+          "expires_at_utc": "2026-11-04T02:42:03.252Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -1190,20 +1190,20 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T20:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T00:00:00.000Z",
           "closed_candles": 119
         },
         "1d": {
           "status": "OK",
           "exchange": "Binance",
           "market": "Binance Spot",
-          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=80&interval=1d&endTime=1793747618558",
-          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=80&interval=1d&endTime=1793747618558",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=80&interval=1d&endTime=1793760003806",
+          "source_url": "https://data-api.binance.vision/api/v3/klines?symbol=BNBUSDT&limit=80&interval=1d&endTime=1793760003806",
           "symbol": "BNBUSDT",
           "interval": "1d",
-          "observation_started_at_utc": "2026-11-03T23:13:38.558Z",
-          "captured_at_utc": "2026-11-03T23:13:38.961Z",
-          "expires_at_utc": "2026-11-03T23:15:38.558Z",
+          "observation_started_at_utc": "2026-11-04T02:40:03.806Z",
+          "captured_at_utc": "2026-11-04T02:40:04.249Z",
+          "expires_at_utc": "2026-11-04T02:42:03.806Z",
           "available_fields": [
             "open_ms",
             "open_utc",
@@ -1219,7 +1219,7 @@
             "trades"
           ],
           "unavailable_fields": [],
-          "last_completed_close_utc": "2026-11-03T00:00:00.000Z",
+          "last_completed_close_utc": "2026-11-04T00:00:00.000Z",
           "closed_candles": 79
         }
       }
